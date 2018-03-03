@@ -3,6 +3,7 @@ import logo from "./logo.svg";
 import "./App.css";
 import IngredientList from "./IngredientList";
 import rawIngredients from "./data/ingredients.json";
+import "foundation-sites/dist/css/foundation.min.css";
 
 class App extends Component {
   constructor(props) {
