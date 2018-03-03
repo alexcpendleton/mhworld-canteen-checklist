@@ -1,0 +1,784 @@
+{
+ "Wyvern Thigh": {
+  "name": "Wyvern Thigh",
+  "type": "Meat",
+  "skill": "Courage",
+  "source": "Starter",
+  "notes": "--",
+  "zone": ""
+ },
+ "Wyvern Skirt Steak": {
+  "name": "Wyvern Skirt Steak",
+  "type": "Meat",
+  "skill": "Courage",
+  "source": "Starter",
+  "notes": "--",
+  "zone": ""
+ },
+ "Wyvern Egg": {
+  "name": "Wyvern Egg",
+  "type": "Meat",
+  "skill": "Courage",
+  "source": "Quest",
+  "notes": "Getting Yolked in the Forest",
+  "zone": ""
+ },
+ "Wyvern Tail": {
+  "name": "Wyvern Tail",
+  "type": "Meat",
+  "skill": "Courage",
+  "source": "???",
+  "zone": ""
+ },
+ "Wyvern Head": {
+  "name": "Wyvern Head",
+  "type": "Meat",
+  "skill": "Courage",
+  "source": "Assigned Quest",
+  "notes": "Flying Sparks: Tobi-Kadachi",
+  "zone": ""
+ },
+ "Wyvern Filet": {
+  "name": "Wyvern Filet",
+  "type": "Meat",
+  "skill": "Courage",
+  "source": "Gather: Upsurge",
+  "notes": "Elder's Recess - Upsurge: Amber Deposits - Twilight Stones\n(Must befriend Gajakala to access the required area)",
+  "zone": "Elder's Recess"
+ },
+ "Tough Meat": {
+  "name": "Tough Meat",
+  "type": "Meat",
+  "skill": "Resilience",
+  "source": "Assigned Quest",
+  "notes": "Flying Sparks: Tobi-Kadachi",
+  "zone": ""
+ },
+ "Thorny Meat": {
+  "name": "Thorny Meat",
+  "type": "Meat",
+  "skill": "Resilience",
+  "source": "Assigned Quest",
+  "notes": "Flying Sparks: Tobi-Kadachi",
+  "zone": ""
+ },
+ "Bullion Meat": {
+  "name": "Bullion Meat",
+  "type": "Meat",
+  "skill": "Resilience",
+  "source": "???",
+  "zone": ""
+ },
+ "Steeled Meat": {
+  "name": "Steeled Meat",
+  "type": "Meat",
+  "skill": "Resilience",
+  "source": "???",
+  "zone": ""
+ },
+ "Wild Chiken": {
+  "name": "Wild Chiken",
+  "type": "Meat",
+  "skill": "Resilience",
+  "source": "???",
+  "zone": ""
+ },
+ "Marinated Carpaccio": {
+  "name": "Marinated Carpaccio",
+  "type": "Meat",
+  "skill": "Resilience",
+  "source": "???",
+  "zone": ""
+ },
+ "Aptonoth Meat": {
+  "name": "Aptonoth Meat",
+  "type": "Meat",
+  "skill": "Vigor",
+  "source": "???",
+  "zone": ""
+ },
+ "Apceroast": {
+  "name": "Apceroast",
+  "type": "Meat",
+  "skill": "Vigor",
+  "source": "???",
+  "zone": ""
+ },
+ "Diced Steak": {
+  "name": "Diced Steak",
+  "type": "Meat",
+  "skill": "Vigor",
+  "source": "Delivery",
+  "notes": "A Great Help - 1 Mega Potion - Triggered after first or second quest?",
+  "zone": ""
+ },
+ "Giant Sirloin": {
+  "name": "Giant Sirloin",
+  "type": "Meat",
+  "skill": "Vigor",
+  "source": "Endemic Researcher",
+  "notes": "Scavantula",
+  "zone": ""
+ },
+ "Big Bite Burger": {
+  "name": "Big Bite Burger",
+  "type": "Meat",
+  "skill": "Vigor",
+  "source": "Gather: Upsurge",
+  "notes": "Rotten Vale - Upsurge: Ancient Fossil - Wicked Fossil",
+  "zone": "Rotten Vale"
+ },
+ "Giga Steak": {
+  "name": "Giga Steak",
+  "type": "Meat",
+  "skill": "Vigor",
+  "source": "Gather",
+  "notes": "Elder's Recess - Ancient Amber - Rare",
+  "zone": "Elder's Recess"
+ },
+ "White Liver": {
+  "name": "White Liver",
+  "type": "Meat",
+  "skill": "Acumen",
+  "source": "Starter",
+  "notes": "--",
+  "zone": ""
+ },
+ "Barbecued Short Rib": {
+  "name": "Barbecued Short Rib",
+  "type": "Meat",
+  "skill": "Acumen",
+  "source": "Starter",
+  "notes": "--",
+  "zone": ""
+ },
+ "Tangy Tripe": {
+  "name": "Tangy Tripe",
+  "type": "Meat",
+  "skill": "Acumen",
+  "source": "???",
+  "zone": ""
+ },
+ "Hot Heart": {
+  "name": "Hot Heart",
+  "type": "Meat",
+  "skill": "Acumen",
+  "source": "Gather: Upsurge",
+  "notes": "Coral Highlands - Upsurge: Oyster? - Pearl Node - Platinum Pearl",
+  "zone": "Coral Highlands"
+ },
+ "Rich Rump": {
+  "name": "Rich Rump",
+  "type": "Meat",
+  "skill": "Acumen",
+  "source": "Delivery",
+  "notes": "The Juicy Meat Resistance - 1 Uragaan Scute - Triggered by Completing Elder Dragon research after Nergigante",
+  "zone": ""
+ },
+ "Grand Foie Gras": {
+  "name": "Grand Foie Gras",
+  "type": "Meat",
+  "skill": "Acumen",
+  "source": "???",
+  "zone": ""
+ },
+ "Peon Turkey": {
+  "name": "Peon Turkey",
+  "type": "Meat",
+  "skill": "Artillery",
+  "source": "Endemic Research Delivery",
+  "notes": "Gather 9 Carrier Ants",
+  "zone": ""
+ },
+ "Great Mutton": {
+  "name": "Great Mutton",
+  "type": "Meat",
+  "skill": "Artillery",
+  "source": "Delivery",
+  "notes": "The Bone-In Roast Resistance - 1 Radobaan Carapace - Triggerred by HR Radobaan?",
+  "zone": ""
+ },
+ "Herbivore Egg": {
+  "name": "Herbivore Egg",
+  "type": "Meat",
+  "skill": "Artillery",
+  "source": "Quest",
+  "notes": "Getting Yolked in the Waste",
+  "zone": ""
+ },
+ "King Turkey": {
+  "name": "King Turkey",
+  "type": "Meat",
+  "skill": "Artillery",
+  "source": "???",
+  "zone": ""
+ },
+ "Magma Mutton": {
+  "name": "Magma Mutton",
+  "type": "Meat",
+  "skill": "Artillery",
+  "source": "???",
+  "zone": ""
+ },
+ "Kaiser Turkey": {
+  "name": "Kaiser Turkey",
+  "type": "Meat",
+  "skill": "Artillery",
+  "source": "???",
+  "zone": ""
+ },
+ "Ridgemane Tuna": {
+  "name": "Ridgemane Tuna",
+  "type": "Fish",
+  "skill": "Courage",
+  "source": "Assigned Quest",
+  "notes": "Flying Sparks: Tobi-Kadachi",
+  "zone": ""
+ },
+ "Serpentine Salmon": {
+  "name": "Serpentine Salmon",
+  "type": "Fish",
+  "skill": "Courage",
+  "source": "???",
+  "zone": ""
+ },
+ "Courageous Eel": {
+  "name": "Courageous Eel",
+  "type": "Fish",
+  "skill": "Courage",
+  "source": "???",
+  "zone": ""
+ },
+ "Sushifish": {
+  "name": "Sushifish",
+  "type": "Fish",
+  "skill": "Courage",
+  "source": "???",
+  "zone": ""
+ },
+ "Ancient Seabream": {
+  "name": "Ancient Seabream",
+  "type": "Fish",
+  "skill": "Courage",
+  "source": "Delivery",
+  "notes": "Ancient But Fresh! - 1 Grand Gajau Whisker - Triggered by HR Gajau kill?",
+  "zone": ""
+ },
+ "Boorish Yellowtail": {
+  "name": "Boorish Yellowtail",
+  "type": "Fish",
+  "skill": "Courage",
+  "source": "???",
+  "zone": ""
+ },
+ "Jumbo Whelk": {
+  "name": "Jumbo Whelk",
+  "type": "Fish",
+  "skill": "Resilience",
+  "source": "Starter",
+  "notes": "--",
+  "zone": ""
+ },
+ "Scallop Chips": {
+  "name": "Scallop Chips",
+  "type": "Fish",
+  "skill": "Resilience",
+  "source": "Starter",
+  "notes": "--",
+  "zone": ""
+ },
+ "Choice Abalone": {
+  "name": "Choice Abalone",
+  "type": "Fish",
+  "skill": "Resilience",
+  "source": "Gather",
+  "notes": "Coral Highlands - Conch Shell - Uncommon",
+  "zone": "Coral Highlands"
+ },
+ "Violet Abalone": {
+  "name": "Violet Abalone",
+  "type": "Fish",
+  "skill": "Resilience",
+  "source": "Gather: Upsurge",
+  "notes": "Coral Highlands - Upsurge: Conch Shells - Unique",
+  "zone": "Coral Highlands"
+ },
+ "Precious Abalone": {
+  "name": "Precious Abalone",
+  "type": "Fish",
+  "skill": "Resilience",
+  "source": "Gather",
+  "notes": "Coral Highlands - Conch Shell - Rare",
+  "zone": "Coral Highlands"
+ },
+ "Large-horned Turban": {
+  "name": "Large-horned Turban",
+  "type": "Fish",
+  "skill": "Resilience",
+  "source": "Gather",
+  "notes": "Rotten Vale - Ancient Fossil - Mystical Fossil (Rare)",
+  "zone": "Rotten Vale"
+ },
+ "Squad Sardine": {
+  "name": "Squad Sardine",
+  "type": "Fish",
+  "skill": "Vigor",
+  "source": "Assigned Quest",
+  "notes": "Flying Sparks: Tobi-Kadachi",
+  "zone": ""
+ },
+ "Samurai Tuna": {
+  "name": "Samurai Tuna",
+  "type": "Fish",
+  "skill": "Vigor",
+  "source": "Assigned Quest",
+  "notes": "Flying Sparks: Tobi-Kadachi",
+  "zone": ""
+ },
+ "Gajau Gill": {
+  "name": "Gajau Gill",
+  "type": "Fish",
+  "skill": "Vigor",
+  "source": "Delivery",
+  "notes": "A Feast of Fish - 1 Gajau Skin - Triggered by LR Gajau Kill?",
+  "zone": ""
+ },
+ "Gajou Liver": {
+  "name": "Gajou Liver",
+  "type": "Fish",
+  "skill": "Vigor",
+  "source": "???",
+  "zone": ""
+ },
+ "Shogun Tuna": {
+  "name": "Shogun Tuna",
+  "type": "Fish",
+  "skill": "Vigor",
+  "source": "???",
+  "zone": ""
+ },
+ "Fiery Seabream": {
+  "name": "Fiery Seabream",
+  "type": "Fish",
+  "skill": "Vigor",
+  "source": "Gather: Upsurge",
+  "notes": "Elder's Recess - Upsurge: Beryl Deposit - Noahstone",
+  "zone": "Elder's Recess"
+ },
+ "Bent-backed Shrimp": {
+  "name": "Bent-backed Shrimp",
+  "type": "Fish",
+  "skill": "Acumen",
+  "source": "???",
+  "zone": ""
+ },
+ "Armor Crab": {
+  "name": "Armor Crab",
+  "type": "Fish",
+  "skill": "Acumen",
+  "source": "???",
+  "zone": ""
+ },
+ "Coral Shrimp": {
+  "name": "Coral Shrimp",
+  "type": "Fish",
+  "skill": "Acumen",
+  "source": "Delivery",
+  "notes": "Princely Prawns - 1 Shamos Hide - Triggered by LR Shamos Kill",
+  "zone": ""
+ },
+ "Fortress Crab": {
+  "name": "Fortress Crab",
+  "type": "Fish",
+  "skill": "Acumen",
+  "source": "???",
+  "zone": ""
+ },
+ "Queen Shrimp": {
+  "name": "Queen Shrimp",
+  "type": "Fish",
+  "skill": "Acumen",
+  "source": "Gather",
+  "notes": "Coral Highlands - Pearls - Rare",
+  "zone": "Coral Highlands"
+ },
+ "Millenary Crab": {
+  "name": "Millenary Crab",
+  "type": "Fish",
+  "skill": "Acumen",
+  "source": "Delivery",
+  "notes": "A Thousand-Year-Old Crab!? - 1 Barnos Talon - Triggered by HR Barnos Kill?",
+  "zone": ""
+ },
+ "Osseoctopus": {
+  "name": "Osseoctopus",
+  "type": "Fish",
+  "skill": "Artillery",
+  "source": "???",
+  "zone": ""
+ },
+ "Pink Caviar": {
+  "name": "Pink Caviar",
+  "type": "Fish",
+  "skill": "Artillery",
+  "source": "???",
+  "zone": ""
+ },
+ "Lily Squid": {
+  "name": "Lily Squid",
+  "type": "Fish",
+  "skill": "Artillery",
+  "source": "???",
+  "zone": ""
+ },
+ "Ballerina Octopus": {
+  "name": "Ballerina Octopus",
+  "type": "Fish",
+  "skill": "Artillery",
+  "source": "Piscine Researcher Quest",
+  "notes": "Gunpowder Fish",
+  "zone": ""
+ },
+ "Soulful Caviar": {
+  "name": "Soulful Caviar",
+  "type": "Fish",
+  "skill": "Artillery",
+  "source": "???",
+  "zone": ""
+ },
+ "Sovereign Squid": {
+  "name": "Sovereign Squid",
+  "type": "Fish",
+  "skill": "Artillery",
+  "source": "???",
+  "zone": ""
+ },
+ "Magnicelery": {
+  "name": "Magnicelery",
+  "type": "Vegetable",
+  "skill": "Courage",
+  "source": "Assigned Quest",
+  "notes": "Flying Sparks: Tobi-Kadachi",
+  "zone": ""
+ },
+ "Rapscallion": {
+  "name": "Rapscallion",
+  "type": "Vegetable",
+  "skill": "Courage",
+  "source": "Assigned Quest",
+  "notes": "Flying Sparks: Tobi-Kadachi",
+  "zone": ""
+ },
+ "Jewel Cactus": {
+  "name": "Jewel Cactus",
+  "type": "Vegetable",
+  "skill": "Courage",
+  "source": "Gather",
+  "notes": "Wildspire Waste - Round Cactus - Uncommon",
+  "zone": "Wildspire Waste"
+ },
+ "Dragonbloom": {
+  "name": "Dragonbloom",
+  "type": "Vegetable",
+  "skill": "Courage",
+  "source": "Gather: Upsurge",
+  "notes": "Wildspire Waste - Flourishing: Cacti - Round Cactus - Uncommon",
+  "zone": "Wildspire Waste"
+ },
+ "Kingly Cactus": {
+  "name": "Kingly Cactus",
+  "type": "Vegetable",
+  "skill": "Courage",
+  "source": "Gather",
+  "notes": "Wildspire Waste - Round Cactus - Rare",
+  "zone": "Wildspire Waste"
+ },
+ "Fatty Tomatoes": {
+  "name": "Fatty Tomatoes",
+  "type": "Vegetable",
+  "skill": "Courage",
+  "source": "Delivery",
+  "notes": "Tomatoes Red as Magma - 1 Lava Nugget - Triggered by Elder Recess unlock??",
+  "zone": ""
+ },
+ "Stonecorn": {
+  "name": "Stonecorn",
+  "type": "Vegetable",
+  "skill": "Resilience",
+  "source": "???",
+  "zone": ""
+ },
+ "Steadfast Spud": {
+  "name": "Steadfast Spud",
+  "type": "Vegetable",
+  "skill": "Resilience",
+  "source": "???",
+  "zone": ""
+ },
+ "Exquisite Shroomcap": {
+  "name": "Exquisite Shroomcap",
+  "type": "Vegetable",
+  "skill": "Resilience",
+  "source": "Gather",
+  "notes": "Ancient Forest - Mushroom Colony - Uncommon",
+  "zone": "Ancient Forest"
+ },
+ "Moonlit Mushroom": {
+  "name": "Moonlit Mushroom",
+  "type": "Vegetable",
+  "skill": "Resilience",
+  "source": "Gather: Upsurge",
+  "notes": "Ancient Forest - Flourishing: Mushrooms - Mushroom Colony",
+  "zone": "Ancient Forest"
+ },
+ "Spirit Shroomcap": {
+  "name": "Spirit Shroomcap",
+  "type": "Vegetable",
+  "skill": "Resilience",
+  "source": "Gather",
+  "notes": "Ancient Forest - Mushroom Colony - Rare",
+  "zone": "Ancient Forest"
+ },
+ "Soiled Shroomcap": {
+  "name": "Soiled Shroomcap",
+  "type": "Vegetable",
+  "skill": "Resilience",
+  "source": "Delivery",
+  "notes": "Fungal Flexin' in the Ancient Forest - Triggered by: Complete Jagras of the Ancient Forest Quest",
+  "zone": "Ancient Forest"
+ },
+ "Plumpkin": {
+  "name": "Plumpkin",
+  "type": "Vegetable",
+  "skill": "Vigor",
+  "source": "Starter",
+  "notes": "--",
+  "zone": ""
+ },
+ "Cludgel Onion": {
+  "name": "Cludgel Onion",
+  "type": "Vegetable",
+  "skill": "Vigor",
+  "source": "Starter",
+  "notes": "--",
+  "zone": ""
+ },
+ "Shinebloom": {
+  "name": "Shinebloom",
+  "type": "Vegetable",
+  "skill": "Vigor",
+  "source": "Gather",
+  "notes": "Ancient Forest - Flowerbed - Uncommon",
+  "zone": "Ancient Forest"
+ },
+ "Sunkissed Grass": {
+  "name": "Sunkissed Grass",
+  "type": "Vegetable",
+  "skill": "Vigor",
+  "source": "Gather: Upsurge",
+  "notes": "Ancient Forest - Flourishing: Flowerbed - Flowerbed",
+  "zone": "Ancient Forest"
+ },
+ "Goldbloom": {
+  "name": "Goldbloom",
+  "type": "Vegetable",
+  "skill": "Vigor",
+  "source": "Gather",
+  "notes": "Ancient Forest - Flowerbed - Rare",
+  "zone": "Ancient Forest"
+ },
+ "King Truffle": {
+  "name": "King Truffle",
+  "type": "Vegetable",
+  "skill": "Vigor",
+  "source": "Delivery",
+  "notes": "Mushrooms: Nature's Smelly Bounty - 1 Mosswine Hide - Triggered by ???",
+  "zone": ""
+ },
+ "Aromaticelery": {
+  "name": "Aromaticelery",
+  "type": "Vegetable",
+  "skill": "Acumen",
+  "source": "Delivery",
+  "notes": "A Veggie Master of Disguise - 1 Hornetaur Carapace - Triggered by ???",
+  "zone": ""
+ },
+ "Prismatic Paprika": {
+  "name": "Prismatic Paprika",
+  "type": "Vegetable",
+  "skill": "Acumen",
+  "source": "Delivery",
+  "notes": "Phantasmagoric Paprika! - 1 Pukei-Pukei Sac+ - Trigger for Quest: ???",
+  "zone": ""
+ },
+ "Tainted Fruit": {
+  "name": "Tainted Fruit",
+  "type": "Vegetable",
+  "skill": "Acumen",
+  "source": "Gather",
+  "notes": "Rotten Vale - Crimson Fruit - Uncommon",
+  "zone": "Rotten Vale"
+ },
+ "Heavenberry": {
+  "name": "Heavenberry",
+  "type": "Vegetable",
+  "skill": "Acumen",
+  "source": "Gather: Upsurge",
+  "notes": "Rotten Vale - Flourishing: Crimson Fruit - Crimson Fruit",
+  "zone": "Rotten Vale"
+ },
+ "Elysian Fruit": {
+  "name": "Elysian Fruit",
+  "type": "Vegetable",
+  "skill": "Acumen",
+  "source": "Gather",
+  "notes": "Rotten Vale - Crimson Fruit - Rare",
+  "zone": "Rotten Vale"
+ },
+ "Millionfold Cabbage": {
+  "name": "Millionfold Cabbage",
+  "type": "Vegetable",
+  "skill": "Acumen",
+  "source": "Delivery",
+  "notes": "Million Zenny Veggie - 1 Girros Fang - Trigger for Quest: ???",
+  "zone": ""
+ },
+ "Kut-Ku Bean": {
+  "name": "Kut-Ku Bean",
+  "type": "Vegetable",
+  "skill": "Artillery",
+  "source": "???",
+  "zone": ""
+ },
+ "Molten Mango": {
+  "name": "Molten Mango",
+  "type": "Vegetable",
+  "skill": "Artillery",
+  "source": "???",
+  "zone": ""
+ },
+ "Rockfruit": {
+  "name": "Rockfruit",
+  "type": "Vegetable",
+  "skill": "Artillery",
+  "source": "Gather",
+  "notes": "Wildspire Waste - Tough-skinned Fruit - Uncommon",
+  "zone": "Wildspire Waste"
+ },
+ "Divineapple": {
+  "name": "Divineapple",
+  "type": "Vegetable",
+  "skill": "Artillery",
+  "source": "Gather: Upsurge",
+  "notes": "Wildspire Waste - Flourishing: Fruit - Tough-skinned Fruit - Uncommon",
+  "zone": "Wildspire Waste"
+ },
+ "Wildfruit": {
+  "name": "Wildfruit",
+  "type": "Vegetable",
+  "skill": "Artillery",
+  "source": "Gather",
+  "notes": "Wildspire Waste - Tough-skinned Fruit - Rare",
+  "zone": "Wildspire Waste"
+ },
+ "Emerald Durian": {
+  "name": "Emerald Durian",
+  "type": "Vegetable",
+  "skill": "Artillery",
+  "source": "Gather",
+  "notes": "Rotten Vale - Fossils - Legendary Fossil (Uncommon)",
+  "zone": "Rotten Vale"
+ },
+ "Tater Mud": {
+  "name": "Tater Mud",
+  "type": "Drink",
+  "skill": "Perception",
+  "source": "Received on entering High Rank",
+  "zone": ""
+ },
+ "Dragon Ale": {
+  "name": "Dragon Ale",
+  "type": "Drink",
+  "skill": "Perception",
+  "source": "Received on entering High Rank",
+  "zone": ""
+ },
+ "Demontater Brew": {
+  "name": "Demontater Brew",
+  "type": "Drink",
+  "skill": "Perception",
+  "source": "Quest",
+  "notes": "6* A Tingling Taste - Required before all further drinks deliveries/quests are unlocked",
+  "zone": ""
+ },
+ "Wyvern Amber Ale": {
+  "name": "Wyvern Amber Ale",
+  "type": "Drink",
+  "skill": "Perception",
+  "source": "Quest",
+  "notes": "6* Stuck in Their Ways - Requires Master Ale",
+  "zone": ""
+ },
+ "Goldenfish Brew": {
+  "name": "Goldenfish Brew",
+  "type": "Drink",
+  "skill": "Perception",
+  "source": "Quest",
+  "notes": "6* A Sore Site - Requires Ratha Whiskey",
+  "zone": ""
+ },
+ "Dragonkiller Sake": {
+  "name": "Dragonkiller Sake",
+  "type": "Drink",
+  "skill": "Perception",
+  "source": "Endemic Researcher",
+  "notes": "Phantom Bird (Downy Crake)",
+  "zone": ""
+ },
+ "Hunter's Brew": {
+  "name": "Hunter's Brew",
+  "type": "Drink",
+  "skill": "Fortune",
+  "source": "Received on entering High Rank",
+  "zone": ""
+ },
+ "Star Brandy": {
+  "name": "Star Brandy",
+  "type": "Drink",
+  "skill": "Fortune",
+  "source": "Received on entering High Rank",
+  "zone": ""
+ },
+ "Master Ale": {
+  "name": "Master Ale",
+  "type": "Drink",
+  "skill": "Fortune",
+  "source": "Delivery",
+  "notes": "A Master's Toast - 2 Thunder Sac - Requires Demontater Brew",
+  "zone": ""
+ },
+ "Ratha Whiskey": {
+  "name": "Ratha Whiskey",
+  "type": "Drink",
+  "skill": "Fortune",
+  "source": "Delivery",
+  "notes": "A Fire-Spewing Brew - 2 Dodogama Jaw - Requires Wyvern Amber Ale",
+  "zone": ""
+ },
+ "Astera Beer": {
+  "name": "Astera Beer",
+  "type": "Drink",
+  "skill": "Fortune",
+  "source": "Quest",
+  "notes": "Double Diablos 7* - Requires Goldenfish Brew",
+  "zone": ""
+ },
+ "Blessed Wine": {
+  "name": "Blessed Wine",
+  "type": "Drink",
+  "skill": "Fortune",
+  "source": "Piscine Researcher",
+  "notes": "Ancient Fish",
+  "zone": ""
+ }
+}
