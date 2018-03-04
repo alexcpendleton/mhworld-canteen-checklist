@@ -6,3 +6,6 @@
   width: 100%;
   text-align: center;
 }
+.single-zone .found {
+  text-decoration: line-through;
+}

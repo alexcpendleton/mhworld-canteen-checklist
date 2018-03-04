@@ -57,7 +57,6 @@ class GameView extends Component {
     return skillRow.map(this.renderOne);
   }
   renderOne(ingredient) {
-    console.log("renderOne", ingredient);
     const key = ingredient.name;
     return (
       <div className="ingredient game-view-ingredient cell small-2" key={key}>
