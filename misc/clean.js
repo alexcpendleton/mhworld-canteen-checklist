@@ -19,6 +19,7 @@ function inferAndApplyZone(item) {
   for (const key in zones) {
     if (item.notes && item.notes.includes(key)) {
       item.zone = key;
+      item.notes = item.notes.replace(key + " - ", "");
     }
   }
 }

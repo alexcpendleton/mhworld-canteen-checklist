@@ -9,3 +9,9 @@
 .single-zone .found {
   text-decoration: line-through;
 }
+.ingredient-table .found {
+  text-align: center;
+}
+.ingredient-table .notes {
+  width: 80%;
+}

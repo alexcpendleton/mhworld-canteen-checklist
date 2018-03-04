@@ -43,7 +43,7 @@
   "type": "Meat",
   "skill": "Courage",
   "source": "Gather: Upsurge",
-  "notes": "Elder's Recess - Upsurge: Amber Deposits - Twilight Stones\n(Must befriend Gajakala to access the required area)",
+  "notes": "Upsurge: Amber Deposits - Twilight Stones\n(Must befriend Gajakala to access the required area)",
   "zone": "Elder's Recess"
  },
  "Tough Meat": {
@@ -125,7 +125,7 @@
   "type": "Meat",
   "skill": "Vigor",
   "source": "Gather: Upsurge",
-  "notes": "Rotten Vale - Upsurge: Ancient Fossil - Wicked Fossil",
+  "notes": "Upsurge: Ancient Fossil - Wicked Fossil",
   "zone": "Rotten Vale"
  },
  "Giga Steak": {
@@ -133,7 +133,7 @@
   "type": "Meat",
   "skill": "Vigor",
   "source": "Gather",
-  "notes": "Elder's Recess - Ancient Amber - Rare",
+  "notes": "Ancient Amber - Rare",
   "zone": "Elder's Recess"
  },
  "White Liver": {
@@ -164,7 +164,7 @@
   "type": "Meat",
   "skill": "Acumen",
   "source": "Gather: Upsurge",
-  "notes": "Coral Highlands - Upsurge: Oyster? - Pearl Node - Platinum Pearl",
+  "notes": "Upsurge: Oyster? - Pearl Node - Platinum Pearl",
   "zone": "Coral Highlands"
  },
  "Rich Rump": {
@@ -292,7 +292,7 @@
   "type": "Fish",
   "skill": "Resilience",
   "source": "Gather",
-  "notes": "Coral Highlands - Conch Shell - Uncommon",
+  "notes": "Conch Shell - Uncommon",
   "zone": "Coral Highlands"
  },
  "Violet Abalone": {
@@ -300,7 +300,7 @@
   "type": "Fish",
   "skill": "Resilience",
   "source": "Gather: Upsurge",
-  "notes": "Coral Highlands - Upsurge: Conch Shells - Unique",
+  "notes": "Upsurge: Conch Shells - Unique",
   "zone": "Coral Highlands"
  },
  "Precious Abalone": {
@@ -308,7 +308,7 @@
   "type": "Fish",
   "skill": "Resilience",
   "source": "Gather",
-  "notes": "Coral Highlands - Conch Shell - Rare",
+  "notes": "Conch Shell - Rare",
   "zone": "Coral Highlands"
  },
  "Large-horned Turban": {
@@ -316,7 +316,7 @@
   "type": "Fish",
   "skill": "Resilience",
   "source": "Gather",
-  "notes": "Rotten Vale - Ancient Fossil - Mystical Fossil (Rare)",
+  "notes": "Ancient Fossil - Mystical Fossil (Rare)",
   "zone": "Rotten Vale"
  },
  "Squad Sardine": {
@@ -362,7 +362,7 @@
   "type": "Fish",
   "skill": "Vigor",
   "source": "Gather: Upsurge",
-  "notes": "Elder's Recess - Upsurge: Beryl Deposit - Noahstone",
+  "notes": "Upsurge: Beryl Deposit - Noahstone",
   "zone": "Elder's Recess"
  },
  "Bent-backed Shrimp": {
@@ -399,7 +399,7 @@
   "type": "Fish",
   "skill": "Acumen",
   "source": "Gather",
-  "notes": "Coral Highlands - Pearls - Rare",
+  "notes": "Pearls - Rare",
   "zone": "Coral Highlands"
  },
  "Millenary Crab": {
@@ -474,7 +474,7 @@
   "type": "Vegetable",
   "skill": "Courage",
   "source": "Gather",
-  "notes": "Wildspire Waste - Round Cactus - Uncommon",
+  "notes": "Round Cactus - Uncommon",
   "zone": "Wildspire Waste"
  },
  "Dragonbloom": {
@@ -482,7 +482,7 @@
   "type": "Vegetable",
   "skill": "Courage",
   "source": "Gather: Upsurge",
-  "notes": "Wildspire Waste - Flourishing: Cacti - Round Cactus - Uncommon",
+  "notes": "Flourishing: Cacti - Round Cactus - Uncommon",
   "zone": "Wildspire Waste"
  },
  "Kingly Cactus": {
@@ -490,7 +490,7 @@
   "type": "Vegetable",
   "skill": "Courage",
   "source": "Gather",
-  "notes": "Wildspire Waste - Round Cactus - Rare",
+  "notes": "Round Cactus - Rare",
   "zone": "Wildspire Waste"
  },
  "Fatty Tomatoes": {
@@ -520,7 +520,7 @@
   "type": "Vegetable",
   "skill": "Resilience",
   "source": "Gather",
-  "notes": "Ancient Forest - Mushroom Colony - Uncommon",
+  "notes": "Mushroom Colony - Uncommon",
   "zone": "Ancient Forest"
  },
  "Moonlit Mushroom": {
@@ -528,7 +528,7 @@
   "type": "Vegetable",
   "skill": "Resilience",
   "source": "Gather: Upsurge",
-  "notes": "Ancient Forest - Flourishing: Mushrooms - Mushroom Colony",
+  "notes": "Flourishing: Mushrooms - Mushroom Colony",
   "zone": "Ancient Forest"
  },
  "Spirit Shroomcap": {
@@ -536,7 +536,7 @@
   "type": "Vegetable",
   "skill": "Resilience",
   "source": "Gather",
-  "notes": "Ancient Forest - Mushroom Colony - Rare",
+  "notes": "Mushroom Colony - Rare",
   "zone": "Ancient Forest"
  },
  "Soiled Shroomcap": {
@@ -544,7 +544,7 @@
   "type": "Vegetable",
   "skill": "Resilience",
   "source": "Delivery",
-  "notes": "Fungal Flexin' in the Ancient Forest - Triggered by: Complete Jagras of the Ancient Forest Quest",
+  "notes": "Fungal Flexin' in the Triggered by: Complete Jagras of the Ancient Forest Quest",
   "zone": "Ancient Forest"
  },
  "Plumpkin": {
@@ -568,7 +568,7 @@
   "type": "Vegetable",
   "skill": "Vigor",
   "source": "Gather",
-  "notes": "Ancient Forest - Flowerbed - Uncommon",
+  "notes": "Flowerbed - Uncommon",
   "zone": "Ancient Forest"
  },
  "Sunkissed Grass": {
@@ -576,7 +576,7 @@
   "type": "Vegetable",
   "skill": "Vigor",
   "source": "Gather: Upsurge",
-  "notes": "Ancient Forest - Flourishing: Flowerbed - Flowerbed",
+  "notes": "Flourishing: Flowerbed - Flowerbed",
   "zone": "Ancient Forest"
  },
  "Goldbloom": {
@@ -584,7 +584,7 @@
   "type": "Vegetable",
   "skill": "Vigor",
   "source": "Gather",
-  "notes": "Ancient Forest - Flowerbed - Rare",
+  "notes": "Flowerbed - Rare",
   "zone": "Ancient Forest"
  },
  "King Truffle": {
@@ -616,7 +616,7 @@
   "type": "Vegetable",
   "skill": "Acumen",
   "source": "Gather",
-  "notes": "Rotten Vale - Crimson Fruit - Uncommon",
+  "notes": "Crimson Fruit - Uncommon",
   "zone": "Rotten Vale"
  },
  "Heavenberry": {
@@ -624,7 +624,7 @@
   "type": "Vegetable",
   "skill": "Acumen",
   "source": "Gather: Upsurge",
-  "notes": "Rotten Vale - Flourishing: Crimson Fruit - Crimson Fruit",
+  "notes": "Flourishing: Crimson Fruit - Crimson Fruit",
   "zone": "Rotten Vale"
  },
  "Elysian Fruit": {
@@ -632,7 +632,7 @@
   "type": "Vegetable",
   "skill": "Acumen",
   "source": "Gather",
-  "notes": "Rotten Vale - Crimson Fruit - Rare",
+  "notes": "Crimson Fruit - Rare",
   "zone": "Rotten Vale"
  },
  "Millionfold Cabbage": {
@@ -662,7 +662,7 @@
   "type": "Vegetable",
   "skill": "Artillery",
   "source": "Gather",
-  "notes": "Wildspire Waste - Tough-skinned Fruit - Uncommon",
+  "notes": "Tough-skinned Fruit - Uncommon",
   "zone": "Wildspire Waste"
  },
  "Divineapple": {
@@ -670,7 +670,7 @@
   "type": "Vegetable",
   "skill": "Artillery",
   "source": "Gather: Upsurge",
-  "notes": "Wildspire Waste - Flourishing: Fruit - Tough-skinned Fruit - Uncommon",
+  "notes": "Flourishing: Fruit - Tough-skinned Fruit - Uncommon",
   "zone": "Wildspire Waste"
  },
  "Wildfruit": {
@@ -678,7 +678,7 @@
   "type": "Vegetable",
   "skill": "Artillery",
   "source": "Gather",
-  "notes": "Wildspire Waste - Tough-skinned Fruit - Rare",
+  "notes": "Tough-skinned Fruit - Rare",
   "zone": "Wildspire Waste"
  },
  "Emerald Durian": {
@@ -686,7 +686,7 @@
   "type": "Vegetable",
   "skill": "Artillery",
   "source": "Gather",
-  "notes": "Rotten Vale - Fossils - Legendary Fossil (Uncommon)",
+  "notes": "Fossils - Legendary Fossil (Uncommon)",
   "zone": "Rotten Vale"
  },
  "Tater Mud": {
