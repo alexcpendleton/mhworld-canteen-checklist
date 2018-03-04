@@ -50,8 +50,6 @@ class IngredientTable extends Component {
         <td>{this.renderFound(key, ingredient)}</td>
         <td>{ingredient.name}</td>
         <td>{ingredient.type}</td>
-        <td>{ingredient.skill}</td>
-        <td>{ingredient.zone}</td>
         <td>{ingredient.source}</td>
         <td>{ingredient.notes}</td>
       </tr>
