@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import logo from "./logo.svg";
 import "./App.css";
+import GameView from "./GameView";
 import IngredientTable from "./IngredientTable";
 import rawIngredients from "./data/ingredients.json";
 import "foundation-sites/dist/css/foundation.min.css";
@@ -20,6 +21,10 @@ class App extends Component {
     const ingredients = this.state.ingredients;
     return (
       <div className="App">
+        <GameView
+          ingredients={ingredients}
+          onFoundChange={this.handleFoundChange}
+        />
         <IngredientTable
           ingredients={ingredients}
           onFoundChange={this.handleFoundChange}
