@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import logo from "./logo.svg";
 import "./App.css";
-import IngredientList from "./IngredientList";
+import IngredientTable from "./IngredientTable";
 import rawIngredients from "./data/ingredients.json";
 import "foundation-sites/dist/css/foundation.min.css";
 
@@ -20,7 +20,7 @@ class App extends Component {
     const ingredients = this.state.ingredients;
     return (
       <div className="App">
-        <IngredientList
+        <IngredientTable
           ingredients={ingredients}
           onFoundChange={this.handleFoundChange}
         />
