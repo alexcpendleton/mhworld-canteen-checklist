@@ -66,7 +66,7 @@ class IngredientTable extends Component {
   }
   renderFound(key, ingredient) {
     return (
-      <div class="found">
+      <div className="found">
         <input
           name={key}
           type="checkbox"

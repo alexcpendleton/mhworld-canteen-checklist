@@ -1,10 +1,17 @@
 .cell {
   border: solid 1px #000;
 }
+.game-view-ingredient {
+  text-align: center;
+}
+.game-view-ingredient label {
+  padding: 1rem 0;
+}
 .game-view-ingredient input {
   display: inline-block;
-  width: 100%;
+  width: auto;
   text-align: center;
+  margin: 0;
 }
 .single-zone .found {
   text-decoration: line-through;

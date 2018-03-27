@@ -47,7 +47,7 @@ class GameView extends Component {
     return (
       <div className="food-type grid-container" key={name}>
         <h3>{name}</h3>
-        <div className="grid-x">
+        <div className="grid-x ">
           {Object.keys(divvied).map(i => this.renderSkillRow(i, divvied[i]))}
         </div>
       </div>

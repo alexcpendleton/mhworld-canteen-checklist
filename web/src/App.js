@@ -30,11 +30,11 @@ class App extends Component {
         }
         localStorage.setItem("found", JSON.stringify(all));
       },
-      load: () => {
+      load: ingredients => {
         let all = JSON.parse(localStorage.getItem("found"));
         if (!all) {
-          localStorage.setItem("found", "{}");
           all = {};
+          localStorage.setItem("found", "{}");
         }
         return all;
       }
@@ -72,7 +72,12 @@ class App extends Component {
 
     for (const key in rawIngredients) {
       let item = Object.assign({}, rawIngredients[key]);
+      console.log(item);
+      if (item.source == "Starter") {
+        found[key] = true;
+      }
       item.found = found[key] != null;
+
       output[key] = item;
     }
 
@@ -83,7 +88,6 @@ class App extends Component {
     });
   }
   async loadFound() {
-    // Give back an object with the keys of the previously-found ingredients. For now just assume none, soon load this from localstorage/database
     return this.storage.load();
   }
   handleFoundChange(key, found) {
