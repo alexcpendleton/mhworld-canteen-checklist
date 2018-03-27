@@ -26,8 +26,8 @@ class GameView extends Component {
       <div>
         <div className="tabs" data-tabs>
           {this.renderType("Meat", categorized["Meat"])}
-          {this.renderType("Vegetable", categorized["Vegetable"])}
           {this.renderType("Fish", categorized["Fish"])}
+          {this.renderType("Vegetable", categorized["Vegetable"])}
           {this.renderType("Drink", categorized["Drink"])}
         </div>
       </div>
