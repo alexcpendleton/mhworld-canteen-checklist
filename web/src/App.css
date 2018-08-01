@@ -22,3 +22,9 @@
 .ingredient-table .notes {
   width: 80%;
 }
+.single-zone .found-column {
+  margin: 0;
+}
+.single-zone .found-column input {
+  margin: 0.5rem 0.625rem 0.625rem;
+}

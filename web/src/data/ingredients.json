@@ -535,7 +535,8 @@
     "type": "Vegetable",
     "skill": "Resilience",
     "source": "Gather: Upsurge",
-    "notes": "Flourishing: Mushrooms - Mushroom Colony",
+    "notes": "Flourishing: Mushrooms",
+    "link": "https://monsterhunterworld.wiki.fextralife.com/Moonlit+Mushroom",
     "zone": "Ancient Forest"
   },
   "Spirit Shroomcap": {
@@ -552,7 +553,7 @@
     "skill": "Resilience",
     "source": "Delivery",
     "notes":
-      "Fungal Flexin' in the Triggered by: Complete Jagras of the Ancient Forest Quest",
+      "Fungal Flexin' in the Forest Triggered by: Complete Jagras of the Ancient Forest Quest",
     "zone": "Ancient Forest"
   },
   "Plumpkin": {
@@ -584,7 +585,8 @@
     "type": "Vegetable",
     "skill": "Vigor",
     "source": "Gather: Upsurge",
-    "notes": "Flourishing: Flowerbed - Flowerbed",
+    "notes": "Flourishing: Flowerbed",
+    "link": "https://monsterhunterworld.wiki.fextralife.com/Sunkissed+Herb",
     "zone": "Ancient Forest"
   },
   "Goldbloom": {

@@ -38,33 +38,45 @@ class IngredientTable extends Component {
       <div key={name} className="single-zone">
         <h3>{name}</h3>
         <table>
-          <tbody>{ingredients.map(i => this.renderOne(i.name, i))}</tbody>
+          <tbody>{ingredients.map(i => this.renderOne(i.name, i, name))}</tbody>
         </table>
       </div>
     );
   }
-  renderOne(key, ingredient) {
+  renderOne(key, ingredient, zone) {
     const foundClass = ingredient.found ? "found" : "not-found";
+    let notes = ingredient.notes;
+    if (ingredient.link) {
+      notes = (
+        <a href={ingredient.link} target="_blank">
+          {ingredient.notes}
+        </a>
+      );
+    }
     return (
       <tr key={key} className={foundClass}>
-        <td>{this.renderFound(key, ingredient)}</td>
+        <td className="found-column">
+          {this.renderFound(key, ingredient, zone)}
+        </td>
         <td>{ingredient.name}</td>
-        <td>{ingredient.type}</td>
-        <td>{ingredient.source}</td>
-        <td>{ingredient.notes}</td>
+        <td>{notes}</td>
       </tr>
     );
   }
-  renderFound(key, ingredient) {
+  renderFound(key, ingredient, zone) {
+    const id = zone + key;
     return (
-      <input
-        name={key}
-        type="checkbox"
-        checked={ingredient.found}
-        onChange={event => {
-          this.handleFoundChange(event, key);
-        }}
-      />
+      <label for={id}>
+        <input
+          name={id}
+          id={id}
+          type="checkbox"
+          checked={ingredient.found}
+          onChange={event => {
+            this.handleFoundChange(event, key);
+          }}
+        />
+      </label>
     );
   }
   handleFoundChange(event, key) {
