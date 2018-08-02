@@ -66,7 +66,7 @@ class IngredientTable extends Component {
   renderFound(key, ingredient, zone) {
     const id = zone + key;
     return (
-      <label for={id}>
+      <label htmlFor={id}>
         <input
           name={id}
           id={id}

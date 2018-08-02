@@ -1,11 +1,18 @@
 import React, { Component } from "react";
-import logo from "./logo.svg";
 import "./App.css";
 import GameView from "./GameView";
 import IngredientTable from "./IngredientTable";
 import ZoneView from "./ZoneView";
 import rawIngredients from "./data/ingredients.json";
-import "foundation-sites/dist/css/foundation.min.css";
+import {
+  Tabs,
+  TabItem,
+  TabPanel,
+  TabsContent,
+  Link,
+  Button
+} from "react-foundation";
+import { isatty } from "tty";
 
 class App extends Component {
   constructor(props) {
@@ -13,10 +20,13 @@ class App extends Component {
     this.state = {
       loaded: false,
       loading: false,
-      ingredients: []
+      ingredients: [],
+      activeTab: "category"
     };
     this.componentDidMount = this.componentDidMount.bind(this);
     this.handleFoundChange = this.handleFoundChange.bind(this);
+    this.selectTab = this.selectTab.bind(this);
+    this.deriveButtonClass = this.deriveButtonClass.bind(this);
     this.storage = {
       changeOne: (key, value) => {
         let all = JSON.parse(localStorage.getItem("found"));
@@ -40,27 +50,79 @@ class App extends Component {
       }
     };
   }
+  deriveButtonClass(isActive) {
+    const type = isActive ? "primary" : "clear";
+    return `${type} button`;
+  }
   render() {
     const ingredients = this.state.ingredients;
+    const isCategoryActive = this.state.activeTab === "category";
+    const isZoneActive = this.state.activeTab === "zone";
+    const isAllActive = this.state.activeTab === "all";
+    debugger;
     return (
       <div className="App">
-        <GameView
-          ingredients={ingredients}
-          onFoundChange={this.handleFoundChange}
-        />
-        <ZoneView
-          ingredients={ingredients}
-          onFoundChange={this.handleFoundChange}
-        />
-        <IngredientTable
-          ingredients={ingredients}
-          onFoundChange={this.handleFoundChange}
-        />
+        <nav
+          aria-label="You are here:"
+          role="navigation"
+          className="menu align-center"
+        >
+          <Tabs>
+            <TabItem isActive={isCategoryActive}>
+              <button
+                className={this.deriveButtonClass(isCategoryActive)}
+                onClick={() => this.selectTab("category")}
+              >
+                Category
+              </button>
+            </TabItem>
+            <TabItem isActive={isZoneActive}>
+              <button
+                className={this.deriveButtonClass(isZoneActive)}
+                onClick={() => this.selectTab("zone")}
+              >
+                Zone
+              </button>
+            </TabItem>
+            <TabItem isActive={isAllActive}>
+              <button
+                className={this.deriveButtonClass(isAllActive)}
+                onClick={() => this.selectTab("all")}
+              >
+                All
+              </button>
+            </TabItem>
+          </Tabs>
+        </nav>
+        <TabsContent className="align-center">
+          <TabPanel isActive={isCategoryActive}>
+            <GameView
+              ingredients={ingredients}
+              onFoundChange={this.handleFoundChange}
+            />
+          </TabPanel>
+          <TabPanel isActive={isZoneActive}>
+            <ZoneView
+              ingredients={ingredients}
+              onFoundChange={this.handleFoundChange}
+            />
+          </TabPanel>
+          <TabPanel isActive={isAllActive}>
+            <IngredientTable
+              ingredients={ingredients}
+              onFoundChange={this.handleFoundChange}
+            />
+          </TabPanel>
+        </TabsContent>
       </div>
     );
   }
   componentDidMount() {
     this.loadData();
+  }
+  selectTab(tabId) {
+    if (this.state.tabId === tabId) return;
+    this.setState({ activeTab: tabId });
   }
 
   async loadData() {
@@ -72,7 +134,6 @@ class App extends Component {
 
     for (const key in rawIngredients) {
       let item = Object.assign({}, rawIngredients[key]);
-      console.log(item);
       if (item.source == "Starter") {
         found[key] = true;
       }

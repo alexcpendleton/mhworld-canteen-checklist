@@ -5,10 +5,10 @@
   "homepage": "https://alexcpendleton.github.io/mhworld-canteen-checklist",
   "license": "MIT",
   "dependencies": {
-    "foundation-sites": "^6.4.4-rc1",
     "gh-pages": "^1.1.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
+    "react-foundation": "^0.9.5",
     "react-scripts": "1.1.1",
     "react-table": "^6.8.0"
   },
