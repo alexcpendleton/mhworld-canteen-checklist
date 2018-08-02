@@ -1,12 +1,17 @@
 import React, { Component } from "react";
-import "foundation-sites/dist/css/foundation.min.css";
-
+import { Tabs, TabItem, TabPanel, TabsContent } from "react-foundation";
 class GameView extends Component {
   constructor(props) {
     super(props);
+    this.state = {
+      activeTab: "Meat"
+    };
     this.renderOne = this.renderOne.bind(this);
     this.renderType = this.renderType.bind(this);
+    this.deriveButtonClass = this.deriveButtonClass.bind(this);
+    this.renderTabItemFor = this.renderTabItemFor.bind(this);
     this.handleFoundChange = this.handleFoundChange.bind(this);
+    this.selectTab = this.selectTab.bind(this);
   }
   render() {
     if (!this.props.ingredients) {
@@ -22,15 +27,31 @@ class GameView extends Component {
       const item = this.props.ingredients[key];
       categorized[item.type].push(item);
     });
+    const orderedTypes = ["Meat", "Fish", "Vegetable", "Drink"];
     return (
       <div>
-        <div className="tabs" data-tabs>
-          {this.renderType("Meat", categorized["Meat"])}
-          {this.renderType("Fish", categorized["Fish"])}
-          {this.renderType("Vegetable", categorized["Vegetable"])}
-          {this.renderType("Drink", categorized["Drink"])}
-        </div>
+        <nav className="menu align-center">
+          <Tabs>{orderedTypes.map(this.renderTabItemFor)}</Tabs>
+        </nav>
+        <TabsContent>
+          {orderedTypes.map(type => this.renderType(type, categorized[type]))}
+        </TabsContent>
       </div>
+    );
+  }
+  deriveButtonClass(isActive) {
+    const type = isActive ? "secondary" : "clear";
+    return `${type} button`;
+  }
+  renderTabItemFor(type) {
+    const isActive = this.state.activeTab === type;
+    const buttonClass = this.deriveButtonClass(isActive);
+    return (
+      <TabItem isActive={isActive} key={type}>
+        <button className={buttonClass} onClick={() => this.selectTab(type)}>
+          {type}
+        </button>
+      </TabItem>
     );
   }
   renderType(name, ingredientsOfType) {
@@ -43,14 +64,16 @@ class GameView extends Component {
       }
       divvied[skill].push(element);
     }
+    const isActive = this.state.activeTab === name;
 
     return (
-      <div className="food-type grid-container" key={name}>
-        <h3>{name}</h3>
-        <div className="grid-x ">
-          {Object.keys(divvied).map(i => this.renderSkillRow(i, divvied[i]))}
+      <TabPanel isActive={isActive} key={name}>
+        <div className="food-type grid-container">
+          <div className="grid-x ">
+            {Object.keys(divvied).map(i => this.renderSkillRow(i, divvied[i]))}
+          </div>
         </div>
-      </div>
+      </TabPanel>
     );
   }
   renderSkillRow(name, skillRow) {
@@ -81,6 +104,10 @@ class GameView extends Component {
     if (this.props.onFoundChange) {
       this.props.onFoundChange(key, found);
     }
+  }
+  selectTab(tabId) {
+    if (this.state.tabId === tabId) return;
+    this.setState({ activeTab: tabId });
   }
 }
 

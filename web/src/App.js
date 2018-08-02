@@ -4,15 +4,8 @@ import GameView from "./GameView";
 import IngredientTable from "./IngredientTable";
 import ZoneView from "./ZoneView";
 import rawIngredients from "./data/ingredients.json";
-import {
-  Tabs,
-  TabItem,
-  TabPanel,
-  TabsContent,
-  Link,
-  Button
-} from "react-foundation";
-import { isatty } from "tty";
+import { Tabs, TabItem, TabPanel, TabsContent } from "react-foundation";
+import "foundation-sites/dist/css/foundation.min.css";
 
 class App extends Component {
   constructor(props) {
@@ -59,14 +52,9 @@ class App extends Component {
     const isCategoryActive = this.state.activeTab === "category";
     const isZoneActive = this.state.activeTab === "zone";
     const isAllActive = this.state.activeTab === "all";
-    debugger;
     return (
       <div className="App">
-        <nav
-          aria-label="You are here:"
-          role="navigation"
-          className="menu align-center"
-        >
+        <nav aria-label="You are here:" className="menu align-center">
           <Tabs>
             <TabItem isActive={isCategoryActive}>
               <button
