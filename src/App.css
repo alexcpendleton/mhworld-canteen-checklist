@@ -1,14 +1,33 @@
-.cell {
-  border: solid 1px #000;
+.cell-a {
+  background: #fff;
+}
+.cell-b {
+  background: hsla(0, 0%, 90%, 0.4);
 }
 h1 {
   text-align: center;
 }
+.App .tabs-content {
+  border: 0;
+}
+.game-view .tabs-panel {
+  padding-left: 0;
+  padding-right: 0;
+}
+.game-view .tabs-content {
+  border: 0;
+}
+.game-view .grid-container {
+  padding-left: 0;
+  padding-right: 0;
+  border: 1px solid #e6e6e6;
+}
 .game-view-ingredient {
   text-align: center;
+  font-size: 0.9rem;
+  padding: 10px;
 }
 .game-view-ingredient label {
-  padding: 1rem 0;
   cursor: pointer;
 }
 .game-view-ingredient input {

@@ -32,7 +32,7 @@ class GameView extends Component {
     });
     const orderedTypes = ["Meat", "Fish", "Vegetable", "Drink"];
     return (
-      <div>
+      <div className="game-view">
         <nav className="menu align-center">
           <Tabs>{orderedTypes.map(this.renderTabItemFor)}</Tabs>
         </nav>
@@ -72,20 +72,29 @@ class GameView extends Component {
     return (
       <TabPanel isActive={isActive} key={name}>
         <div className="food-type grid-container">
-          <div className="grid-x ">
-            {Object.keys(divvied).map(i => this.renderSkillRow(i, divvied[i]))}
+          <div className="grid-x">
+            {Object.keys(divvied).map((name, index) => {
+              return this.renderSkillRow(name, divvied[name], index);
+            })}
           </div>
         </div>
       </TabPanel>
     );
   }
-  renderSkillRow(name, skillRow) {
-    return skillRow.map(this.renderOne);
+  renderSkillRow(name, skillRow, rowIndex) {
+    return skillRow.map((item, index) => this.renderOne(item, index, rowIndex));
   }
-  renderOne(ingredient) {
+  renderOne(ingredient, index, rowIndex) {
     const key = ingredient.name;
+    let className = "ingredient game-view-ingredient small-2 cell";
+    let rowMod = rowIndex % 2;
+    if (index % 2 == rowMod) {
+      className += " cell-a";
+    } else {
+      className += " cell-b";
+    }
     return (
-      <div className="ingredient game-view-ingredient cell small-2" key={key}>
+      <div className={className} key={key}>
         <label htmlFor={key}>
           <input
             id={key}
@@ -107,8 +116,8 @@ class GameView extends Component {
       return null;
     }
     return (
-      <div class="details">
-        <div class="zone-source">{this.renderZoneSource(ingredient)}</div>
+      <div className="details">
+        <div className="zone-source">{this.renderZoneSource(ingredient)}</div>
         <Notes ingredient={ingredient} />
       </div>
     );

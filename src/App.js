@@ -105,7 +105,7 @@ class App extends Component {
             />
           </TabPanel>
         </TabsContent>
-        <section class="credits">
+        <section className="credits">
           <p>
             Most information was compiled from the{" "}
             <a href="https://monsterhunterworld.wiki.fextralife.com/Canteen">
