@@ -45,3 +45,6 @@ label > [type="checkbox"] {
 .single-zone .found-column input {
   margin: 0.5rem 0.625rem 0.625rem;
 }
+.credits {
+  text-align: center;
+}

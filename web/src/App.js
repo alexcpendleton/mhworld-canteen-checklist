@@ -105,6 +105,32 @@ class App extends Component {
             />
           </TabPanel>
         </TabsContent>
+        <section class="credits">
+          <p>
+            Most information was compiled from the{" "}
+            <a href="https://monsterhunterworld.wiki.fextralife.com/Canteen">
+              Fextralife Wiki
+            </a>,{" "}
+            <a href="https://docs.google.com/spreadsheets/d/1XYvKOMGIgpoWHEyJF9o6_IVx8dpTOPRFf17DxjAnCYc/edit#gid=914380646">
+              liarea's spreadsheet
+            </a>, and through gameplay.
+          </p>
+          <p>
+            Ingredients often link to further details on the Wiki. You'll want
+            to use those especially for the unique flourishing/upsurge node
+            locations.
+          </p>
+          <p>
+            Feel free to e-mail feedback and corrections to{" "}
+            <a href="mailto:vespoids@pondryhills.com?subject=MHW+Canteen+Checklist+Feedback">
+              vespoids@pondryhills.com
+            </a>{" "}
+            or submit a{" "}
+            <a href="https://github.com/alexcpendleton/mhworld-canteen-checklist">
+              Github issue
+            </a>.
+          </p>
+        </section>
       </div>
     );
   }
