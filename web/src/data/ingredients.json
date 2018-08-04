@@ -29,7 +29,7 @@
     "name": "Wyvern Tail",
     "type": "Meat",
     "skill": "Courage",
-    "source": "Research",
+    "source": "Endemic Life Researcher",
     "notes": "Woodland Pteryx Capture",
     "link": "https://monsterhunterworld.wiki.fextralife.com/Woodland+Pteryx",
     "zone": "Ancient Forest"
@@ -78,29 +78,45 @@
     "name": "Bullion Meat",
     "type": "Meat",
     "skill": "Resilience",
-    "source": "",
-    "zone": ""
+    "source": "Quest",
+    "zone": "Wildspire Waste",
+    "notes": "Exterminator of the Wastes",
+    "stars": "2",
+    "hr": "3",
+    "link":
+      "https://monsterhunterworld.wiki.fextralife.com/Exterminator+of+the+Waste"
   },
   "Steeled Meat": {
     "name": "Steeled Meat",
     "type": "Meat",
     "skill": "Resilience",
-    "source": "",
-    "zone": ""
+    "source": "Quest",
+    "zone": "Rotten Vale",
+    "notes": "A Rotten Request",
+    "stars": "6",
+    "hr": "11",
+    "link":
+      "https://monsterhunterworld.wiki.fextralife.com/Chef+Quest!+A+Rotten+Request"
   },
   "Wild Chiken": {
     "name": "Wild Chiken",
     "type": "Meat",
     "skill": "Resilience",
-    "source": "",
-    "zone": ""
+    "source": "Gather",
+    "zone": "Elder's Recess",
+    "notes": "Amber Deposit - Uncommon"
   },
   "Marinated Carpaccio": {
     "name": "Marinated Carpaccio",
     "type": "Meat",
     "skill": "Resilience",
-    "source": "",
-    "zone": ""
+    "source": "Quest",
+    "zone": "Rotten Vale",
+    "notes": "The Meat of the Matter",
+    "hr": "8",
+    "stars": "5",
+    "link":
+      "https://monsterhunterworld.wiki.fextralife.com/The+Meat+of+the+Matter"
   },
   "Aptonoth Meat": {
     "name": "Aptonoth Meat",
@@ -109,7 +125,9 @@
     "source": "Quest",
     "zone": "Wildspire Waste",
     "notes": "Tickled Pink",
-    "link": "https://monsterhunterworld.wiki.fextralife.com/Tickled+Pink"
+    "link": "https://monsterhunterworld.wiki.fextralife.com/Tickled+Pink",
+    "stars": "6",
+    "hr": "13"
   },
   "Apceroast": {
     "name": "Apceroast",
@@ -118,7 +136,9 @@
     "source": "Quest",
     "zone": "Wildspire Waste",
     "notes": "Tickled Pink",
-    "link": "https://monsterhunterworld.wiki.fextralife.com/Tickled+Pink"
+    "link": "https://monsterhunterworld.wiki.fextralife.com/Tickled+Pink",
+    "stars": "6",
+    "hr": "13"
   },
   "Diced Steak": {
     "name": "Diced Steak",
@@ -133,8 +153,10 @@
     "type": "Meat",
     "skill": "Vigor",
     "source": "Endemic Researcher",
-    "notes": "Scavantula",
-    "zone": ""
+    "notes": "Scavantula - capture in sector 4 or 5",
+    "zone": "Rotten Vale",
+    "link":
+      "https://monsterhunterworld.wiki.fextralife.com/Endemic+Life+Researcher"
   },
   "Big Bite Burger": {
     "name": "Big Bite Burger",
@@ -142,14 +164,15 @@
     "skill": "Vigor",
     "source": "Gather",
     "notes": "Upsurge: Ancient Fossil - Wicked Fossil",
-    "zone": "Rotten Vale"
+    "zone": "Rotten Vale",
+    "link": "https://monsterhunterworld.wiki.fextralife.com/Wicked+Fossil"
   },
   "Giga Steak": {
     "name": "Giga Steak",
     "type": "Meat",
     "skill": "Vigor",
     "source": "Gather",
-    "notes": "Ancient Amber - Rare",
+    "notes": "Ancient Amber - Rare gather from Amber Deposit",
     "zone": "Elder's Recess"
   },
   "White Liver": {
@@ -172,8 +195,11 @@
     "name": "Tangy Tripe",
     "type": "Meat",
     "skill": "Acumen",
-    "source": "",
-    "zone": ""
+    "source": "Quest",
+    "zone": "Rotten Vale",
+    "notes": "4 Forgotten Fossils, primarily in sector 2 and 8",
+    "link":
+      "https://monsterhunterworld.wiki.fextralife.com/Chef+Quest!+Pumped+to+Deliver"
   },
   "Hot Heart": {
     "name": "Hot Heart",
@@ -181,7 +207,8 @@
     "skill": "Acumen",
     "source": "Gather",
     "notes": "Upsurge: Oyster - Pearl Node - Platinum Pearl",
-    "zone": "Coral Highlands"
+    "zone": "Coral Highlands",
+    "link": "https://monsterhunterworld.wiki.fextralife.com/Platinum+Pearl"
   },
   "Rich Rump": {
     "name": "Rich Rump",
@@ -189,54 +216,67 @@
     "skill": "Acumen",
     "source": "Delivery",
     "notes":
-      "The Juicy Meat Resistance - 1 Uragaan Scute \n Triggered by Completing Elder Dragon research after Nergigante",
-    "zone": ""
+      "The Juicy Meat Resistance - 1 Uragaan Scute\nTriggered by Completing Elder Dragon research after Nergigante",
+    "zone": "",
+    "link": "https://monsterhunterworld.wiki.fextralife.com/Deliveries"
   },
   "Grand Foie Gras": {
     "name": "Grand Foie Gras",
     "type": "Meat",
     "skill": "Acumen",
-    "source": "",
-    "zone": ""
+    "source": "Gather",
+    "zone": "Elder's Recess",
+    "notes": "Beryl Deposit - True Beryl"
   },
   "Peon Turkey": {
     "name": "Peon Turkey",
     "type": "Meat",
     "skill": "Artillery",
-    "source": "Delivery",
-    "notes": "Gather 9 Carrier Ants",
-    "zone": ""
+    "source": "Endemic Life Researcher",
+    "notes":
+      "Research Help: Carrier Ant Capture - Gather 9 Carrier Ants \n Sectors 1, 6, 8",
+    "zone": "Wildspire Waste",
+    "link": "https://monsterhunterworld.wiki.fextralife.com/Carrier+Ant"
   },
   "Great Mutton": {
     "name": "Great Mutton",
     "type": "Meat",
     "skill": "Artillery",
     "source": "Delivery",
-    "notes":
-      "The Bone-In Roast Resistance - 1 Radobaan Carapace - Triggerred by HR Radobaan?",
-    "zone": ""
+    "notes": "The Bone-In Roast Resistance - 1 Radobaan Carapace",
+    "zone": "Rotten Vale"
   },
   "Herbivore Egg": {
     "name": "Herbivore Egg",
     "type": "Meat",
     "skill": "Artillery",
     "source": "Quest",
-    "notes": "Getting Yolked in the Waste",
-    "zone": "Wildspire Waste"
+    "notes": "Gettin' Yolked in the Waste",
+    "zone": "Wildspire Waste",
+    "link":
+      "https://monsterhunterworld.wiki.fextralife.com/Gettin'+Yolked+in+the+Waste"
   },
   "King Turkey": {
     "name": "King Turkey",
     "type": "Meat",
     "skill": "Artillery",
-    "source": "",
-    "zone": ""
+    "source": "Quest",
+    "zone": "Coral Highlands",
+    "notes": "4* It's a Crying Shamos",
+    "hr": "6",
+    "stars": "4",
+    "link":
+      "https://monsterhunterworld.wiki.fextralife.com/It's+a+Crying+Shamos"
   },
   "Magma Mutton": {
     "name": "Magma Mutton",
     "type": "Meat",
     "skill": "Artillery",
-    "source": "",
-    "zone": ""
+    "source": "Delivery",
+    "notes": "Research Help: Bomb Beetle Capture",
+    "zone": "Elder's Recess",
+    "link":
+      "https://monsterhunterworld.wiki.fextralife.com/Endemic+Life+Researcher"
   },
   "Kaiser Turkey": {
     "name": "Kaiser Turkey",
@@ -263,21 +303,26 @@
     "source": "Quest",
     "zone": "Wildspire Waste",
     "notes": "Tickled Pink",
-    "link": "https://monsterhunterworld.wiki.fextralife.com/Tickled+Pink"
+    "link": "https://monsterhunterworld.wiki.fextralife.com/Tickled+Pink",
+    "stars": "6",
+    "hr": "13"
   },
   "Courageous Eel": {
     "name": "Courageous Eel",
     "type": "Fish",
     "skill": "Courage",
-    "source": "",
-    "zone": ""
+    "source": "Endemic Life Researcher",
+    "notes": "Research Help: Pink Parexus Capture - sectors 1, 4, 9, 11",
+    "zone": "Ancient Forest"
   },
   "Sushifish": {
     "name": "Sushifish",
     "type": "Fish",
     "skill": "Courage",
-    "source": "",
-    "zone": ""
+    "source": "Piscine Researcher",
+    "notes": "Research Help: Sushifish Capture - sectors 1, 6, 10",
+    "zone": "Wildspire Waste",
+    "link": "https://monsterhunterworld.wiki.fextralife.com/Sushifish"
   },
   "Ancient Seabream": {
     "name": "Ancient Seabream",
@@ -285,15 +330,20 @@
     "skill": "Courage",
     "source": "Delivery",
     "notes":
-      "Ancient But Fresh! - 1 Grand Gajau Whisker \n Triggered by HR Gajau kill",
-    "zone": ""
+      "Ancient But Fresh! - 1 Grand Gajau Whisker \n Gathered from HR Gajau (mud fish)",
+    "zone": "Wildspire Waste"
   },
   "Boorish Yellowtail": {
     "name": "Boorish Yellowtail",
     "type": "Fish",
     "skill": "Courage",
-    "source": "",
-    "zone": ""
+    "source": "Quest",
+    "zone": "Elder's Recess",
+    "hr": "13",
+    "stars": "6",
+    "link":
+      "https://monsterhunterworld.wiki.fextralife.com/Chef+Quest!+Gajalaka+Lockdown",
+    "notes": "Gajalaka found in sectors 3, 8, 6, 11"
   },
   "Jumbo Whelk": {
     "name": "Jumbo Whelk",
@@ -324,8 +374,9 @@
     "type": "Fish",
     "skill": "Resilience",
     "source": "Gather",
-    "notes": "Upsurge: Conch Shells - Unique",
-    "zone": "Coral Highlands"
+    "notes": "Upsurge: Conch Shells",
+    "zone": "Coral Highlands",
+    "link": "https://monsterhunterworld.wiki.fextralife.com/Violet+Abalone"
   },
   "Precious Abalone": {
     "name": "Precious Abalone",
@@ -340,7 +391,7 @@
     "type": "Fish",
     "skill": "Resilience",
     "source": "Gather",
-    "notes": "Ancient Fossil - Mystical Fossil (Rare)",
+    "notes": "Ancient Fossil - Mystical Fossil",
     "zone": "Rotten Vale"
   },
   "Squad Sardine": {
@@ -351,7 +402,9 @@
     "notes": "Flying Sparks: Tobi-Kadachi",
     "link":
       "https://monsterhunterworld.wiki.fextralife.com/Flying+Sparks:+Tobi-Kadachi",
-    "zone": "Ancient Forest"
+    "zone": "Ancient Forest",
+    "hr": "4",
+    "stars": "3"
   },
   "Samurai Tuna": {
     "name": "Samurai Tuna",
@@ -361,29 +414,37 @@
     "notes": "Flying Sparks: Tobi-Kadachi",
     "link":
       "https://monsterhunterworld.wiki.fextralife.com/Flying+Sparks:+Tobi-Kadachi",
-    "zone": "Ancient Forest"
+    "zone": "Ancient Forest",
+    "hr": "4",
+    "stars": "3"
   },
   "Gajau Gill": {
     "name": "Gajau Gill",
     "type": "Fish",
     "skill": "Vigor",
     "source": "Delivery",
-    "notes": "A Feast of Fish - 1 Gajau Skin - Triggered by LR Gajau Kill",
-    "zone": ""
+    "notes": "A Feast of Fish - 1 Gajau Skin - LR Gajau carve (mud fish)",
+    "zone": "Wildspire Waste"
   },
   "Gajou Liver": {
     "name": "Gajou Liver",
     "type": "Fish",
     "skill": "Vigor",
-    "source": "",
-    "zone": ""
+    "source": "Quest",
+    "zone": "Wildspire Waste",
+    "notes": "The Pain From Gains",
+    "stars": "2",
+    "hr": "3",
+    "link": "https://monsterhunterworld.wiki.fextralife.com/The+Pain+from+Gains"
   },
   "Shogun Tuna": {
     "name": "Shogun Tuna",
     "type": "Fish",
     "skill": "Vigor",
-    "source": "",
-    "zone": ""
+    "source": "Piscine Researcher",
+    "zone": "Rotten Vale",
+    "notes": "Research Help: Goldenfish Capture - sector 15",
+    "link": "https://monsterhunterworld.wiki.fextralife.com/Goldenfish"
   },
   "Fiery Seabream": {
     "name": "Fiery Seabream",
@@ -401,7 +462,9 @@
     "source": "Quest",
     "zone": "Wildspire Waste",
     "notes": "Tickled Pink",
-    "link": "https://monsterhunterworld.wiki.fextralife.com/Tickled+Pink"
+    "link": "https://monsterhunterworld.wiki.fextralife.com/Tickled+Pink",
+    "stars": "6",
+    "hr": "13"
   },
   "Armor Crab": {
     "name": "Armor Crab",
@@ -410,22 +473,25 @@
     "source": "Quest",
     "zone": "Wildspire Waste",
     "notes": "Tickled Pink",
-    "link": "https://monsterhunterworld.wiki.fextralife.com/Tickled+Pink"
+    "link": "https://monsterhunterworld.wiki.fextralife.com/Tickled+Pink",
+    "stars": "6",
+    "hr": "13"
   },
   "Coral Shrimp": {
     "name": "Coral Shrimp",
     "type": "Fish",
     "skill": "Acumen",
     "source": "Delivery",
-    "notes": "Princely Prawns - 1 Shamos Hide - Triggered by LR Shamos Kill",
-    "zone": ""
+    "notes": "Princely Prawns - 1 Shamos Hide \n LR Shamos",
+    "zone": "Coral Highlands"
   },
   "Fortress Crab": {
     "name": "Fortress Crab",
     "type": "Fish",
     "skill": "Acumen",
-    "source": "",
-    "zone": ""
+    "source": "Gather",
+    "zone": "Coral Highlands",
+    "notes": "Pearl Oyster"
   },
   "Queen Shrimp": {
     "name": "Queen Shrimp",
@@ -440,9 +506,9 @@
     "type": "Fish",
     "skill": "Acumen",
     "source": "Delivery",
-    "notes":
-      "A Thousand-Year-Old Crab!? - 1 Barnos Talon - Triggered by HR Barnos Kill?",
-    "zone": ""
+    "notes": "A Thousand-Year-Old Crab!? - 1 Barnos Talon \n HR Barnos",
+    "zone": "Elder's Recess",
+    "link": "https://monsterhunterworld.wiki.fextralife.com/Barnos"
   },
   "Osseoctopus": {
     "name": "Osseoctopus",
@@ -451,7 +517,9 @@
     "source": "Quest",
     "zone": "Wildspire Waste",
     "notes": "Tickled Pink",
-    "link": "https://monsterhunterworld.wiki.fextralife.com/Tickled+Pink"
+    "link": "https://monsterhunterworld.wiki.fextralife.com/Tickled+Pink",
+    "stars": "6",
+    "hr": "13"
   },
   "Pink Caviar": {
     "name": "Pink Caviar",
@@ -460,36 +528,46 @@
     "source": "Quest",
     "zone": "Wildspire Waste",
     "notes": "Tickled Pink",
-    "link": "https://monsterhunterworld.wiki.fextralife.com/Tickled+Pink"
+    "link": "https://monsterhunterworld.wiki.fextralife.com/Tickled+Pink",
+    "stars": "6",
+    "hr": "13"
   },
   "Lily Squid": {
     "name": "Lily Squid",
     "type": "Fish",
     "skill": "Artillery",
-    "source": "",
-    "zone": ""
+    "source": "Endemic Life Researcher",
+    "notes": "Wiggler Capture",
+    "zone": "Coral Highlands"
   },
   "Ballerina Octopus": {
     "name": "Ballerina Octopus",
     "type": "Fish",
     "skill": "Artillery",
-    "source": "Piscine Researcher Quest",
-    "notes": "Gunpowder Fish",
-    "zone": ""
+    "source": "Piscene Researcher",
+    "notes": "Gunpowderfish Capture - sector 7",
+    "zone": "Coral Highlands",
+    "link": "https://monsterhunterworld.wiki.fextralife.com/Gunpowderfish"
   },
   "Soulful Caviar": {
     "name": "Soulful Caviar",
     "type": "Fish",
     "skill": "Artillery",
-    "source": "",
-    "zone": ""
+    "source": "Quest",
+    "zone": "Coral Highlands",
+    "notes": "What a Bunch of Abalone",
+    "link":
+      "https://monsterhunterworld.wiki.fextralife.com/What+a+Bunch+of+Abalone",
+    "hr": "6",
+    "stars": "4"
   },
   "Sovereign Squid": {
     "name": "Sovereign Squid",
     "type": "Fish",
     "skill": "Artillery",
-    "source": "",
-    "zone": ""
+    "source": "Piscene Researcher",
+    "zone": "Elder's Recess",
+    "notes": "Research Help: Platinumfish Capture - sectors 7, 8 (Eastern camp)"
   },
   "Magnicelery": {
     "name": "Magnicelery",
@@ -499,7 +577,9 @@
     "notes": "Flying Sparks: Tobi-Kadachi",
     "link":
       "https://monsterhunterworld.wiki.fextralife.com/Flying+Sparks:+Tobi-Kadachi",
-    "zone": ""
+    "zone": "Ancient Forest",
+    "stars": "3",
+    "hr": "4"
   },
   "Rapscallion": {
     "name": "Rapscallion",
@@ -509,7 +589,9 @@
     "notes": "Flying Sparks: Tobi-Kadachi",
     "link":
       "https://monsterhunterworld.wiki.fextralife.com/Flying+Sparks:+Tobi-Kadachi",
-    "zone": ""
+    "zone": "Ancient Forest",
+    "stars": "3",
+    "hr": "4"
   },
   "Jewel Cactus": {
     "name": "Jewel Cactus",
@@ -524,15 +606,16 @@
     "type": "Vegetable",
     "skill": "Courage",
     "source": "Gather",
-    "notes": "Flourishing: Cacti - Round Cactus - Uncommon",
-    "zone": "Wildspire Waste"
+    "notes": "Flourishing: Cacti - Round Cactus",
+    "zone": "Wildspire Waste",
+    "link": "https://monsterhunterworld.wiki.fextralife.com/Dragonbloom"
   },
   "Kingly Cactus": {
     "name": "Kingly Cactus",
     "type": "Vegetable",
     "skill": "Courage",
     "source": "Gather",
-    "notes": "Round Cactus - Rare",
+    "notes": "Round Cactus - Rare (HR only)",
     "zone": "Wildspire Waste"
   },
   "Fatty Tomatoes": {
@@ -540,23 +623,30 @@
     "type": "Vegetable",
     "skill": "Courage",
     "source": "Delivery",
-    "notes":
-      "Tomatoes Red as Magma - 1 Lava Nugget - Triggered by Elder Recess unlock??",
-    "zone": ""
+    "notes": "Tomatoes Red as Magma - 1 Lava Nugget",
+    "zone": "Elder's Recess"
   },
   "Stonecorn": {
     "name": "Stonecorn",
     "type": "Vegetable",
     "skill": "Resilience",
-    "source": "",
-    "zone": ""
+    "zone": "Wildspire Waste",
+    "source": "Quest",
+    "notes": "Tickled Pink",
+    "link": "https://monsterhunterworld.wiki.fextralife.com/Tickled+Pink",
+    "stars": "6",
+    "hr": "13"
   },
   "Steadfast Spud": {
     "name": "Steadfast Spud",
     "type": "Vegetable",
     "skill": "Resilience",
-    "source": "",
-    "zone": ""
+    "zone": "Wildspire Waste",
+    "source": "Quest",
+    "notes": "Tickled Pink",
+    "link": "https://monsterhunterworld.wiki.fextralife.com/Tickled+Pink",
+    "stars": "6",
+    "hr": "13"
   },
   "Exquisite Shroomcap": {
     "name": "Exquisite Shroomcap",
@@ -621,7 +711,7 @@
     "type": "Vegetable",
     "skill": "Vigor",
     "source": "Gather",
-    "notes": "Flourishing: Flowerbed",
+    "notes": "Flourishing: Flowerbed - Sunkissed Herb",
     "link": "https://monsterhunterworld.wiki.fextralife.com/Sunkissed+Herb",
     "zone": "Ancient Forest"
   },
@@ -630,7 +720,7 @@
     "type": "Vegetable",
     "skill": "Vigor",
     "source": "Gather",
-    "notes": "Flowerbed - Rare",
+    "notes": "Flowerbed - Rare (HR only)",
     "zone": "Ancient Forest"
   },
   "King Truffle": {
@@ -638,27 +728,24 @@
     "type": "Vegetable",
     "skill": "Vigor",
     "source": "Delivery",
-    "notes":
-      "Mushrooms: Nature's Smelly Bounty - 1 Mosswine Hide - Triggered by ",
-    "zone": ""
+    "notes": "Mushrooms: Nature's Smelly Bounty - 1 Mosswine Hide",
+    "zone": "Ancient Forest"
   },
   "Aromaticelery": {
     "name": "Aromaticelery",
     "type": "Vegetable",
     "skill": "Acumen",
     "source": "Delivery",
-    "notes":
-      "A Veggie Master of Disguise - 1 Hornetaur Carapace - Triggered by ",
-    "zone": ""
+    "notes": "A Veggie Master of Disguise - 1 Hornetaur Carapace",
+    "zone": "Rotten Vale"
   },
   "Prismatic Paprika": {
     "name": "Prismatic Paprika",
     "type": "Vegetable",
     "skill": "Acumen",
     "source": "Delivery",
-    "notes":
-      "Phantasmagoric Paprika! - 1 Pukei-Pukei Sac+ - Trigger for Quest: ",
-    "zone": ""
+    "notes": "Phantasmagoric Paprika! - 1 Pukei-Pukei Sac+",
+    "zone": "Ancient Forest"
   },
   "Tainted Fruit": {
     "name": "Tainted Fruit",
@@ -673,8 +760,9 @@
     "type": "Vegetable",
     "skill": "Acumen",
     "source": "Gather",
-    "notes": "Flourishing: Crimson Fruit - Crimson Fruit",
-    "zone": "Rotten Vale"
+    "notes": "Flourishing: Crimson Fruit",
+    "zone": "Rotten Vale",
+    "link": "https://monsterhunterworld.wiki.fextralife.com/Heavenberry"
   },
   "Elysian Fruit": {
     "name": "Elysian Fruit",
@@ -689,22 +777,30 @@
     "type": "Vegetable",
     "skill": "Acumen",
     "source": "Delivery",
-    "notes": "Million Zenny Veggie - 1 Girros Fang - Trigger for Quest: ",
+    "notes": "Million Zenny Veggie - 1 Girros Fang",
     "zone": ""
   },
   "Kut-Ku Bean": {
     "name": "Kut-Ku Bean",
     "type": "Vegetable",
     "skill": "Artillery",
-    "source": "",
-    "zone": ""
+    "source": "Quest",
+    "zone": "Wildspire Waste",
+    "notes": "Tickled Pink",
+    "link": "https://monsterhunterworld.wiki.fextralife.com/Tickled+Pink",
+    "stars": "6",
+    "hr": "13"
   },
   "Molten Mango": {
     "name": "Molten Mango",
     "type": "Vegetable",
     "skill": "Artillery",
-    "source": "",
-    "zone": ""
+    "source": "Quest",
+    "zone": "Wildspire Waste",
+    "notes": "Tickled Pink",
+    "link": "https://monsterhunterworld.wiki.fextralife.com/Tickled+Pink",
+    "stars": "6",
+    "hr": "13"
   },
   "Rockfruit": {
     "name": "Rockfruit",
@@ -719,8 +815,9 @@
     "type": "Vegetable",
     "skill": "Artillery",
     "source": "Gather",
-    "notes": "Flourishing: Fruit - Tough-skinned Fruit - Uncommon",
-    "zone": "Wildspire Waste"
+    "notes": "Flourishing: Fruit - Tough-skinned Fruit",
+    "zone": "Wildspire Waste",
+    "link": "https://monsterhunterworld.wiki.fextralife.com/Divineapple"
   },
   "Wildfruit": {
     "name": "Wildfruit",
@@ -757,9 +854,11 @@
     "type": "Drink",
     "skill": "Perception",
     "source": "Quest",
-    "notes":
-      "6* A Tingling Taste - Required before all further drinks deliveries/quests are unlocked",
-    "zone": ""
+    "notes": "6* A Tingling Taste - Begins a quest chain for all other drinks",
+    "zone": "Rotten Vale",
+    "stars": "6",
+    "hr": "11",
+    "link": "https://monsterhunterworld.wiki.fextralife.com/A+Tingling+Taste"
   },
   "Wyvern Amber Ale": {
     "name": "Wyvern Amber Ale",
@@ -767,23 +866,30 @@
     "skill": "Perception",
     "source": "Quest",
     "notes": "6* Stuck in Their Ways - Requires Master Ale",
-    "zone": ""
+    "zone": "Ancient Forest",
+    "stars": "6",
+    "hr": "11",
+    "link": "https://monsterhunterworld.wiki.fextralife.com/Stuck+in+their+Ways"
   },
   "Goldenfish Brew": {
     "name": "Goldenfish Brew",
     "type": "Drink",
     "skill": "Perception",
     "source": "Quest",
-    "notes": "6* A Sore Site - Requires Ratha Whiskey",
-    "zone": ""
+    "notes": "7* A Sore Site - Requires Ratha Whiskey",
+    "zone": "Coral Highlands",
+    "stars": "7",
+    "hr": "13",
+    "link": "https://monsterhunterworld.wiki.fextralife.com/A+Sore+Site"
   },
   "Dragonkiller Sake": {
     "name": "Dragonkiller Sake",
     "type": "Drink",
     "skill": "Perception",
-    "source": "Endemic Researcher",
-    "notes": "Phantom Bird (Downy Crake)",
-    "zone": ""
+    "source": "Endemic Life Researcher",
+    "notes":
+      "Phantom Bird (Downy Crake) - Must have completed all other Endemic Life bounties",
+    "zone": "Ancient Forest"
   },
   "Hunter's Brew": {
     "name": "Hunter's Brew",
@@ -813,22 +919,27 @@
     "skill": "Fortune",
     "source": "Delivery",
     "notes": "A Fire-Spewing Brew - 2 Dodogama Jaw - Requires Wyvern Amber Ale",
-    "zone": ""
+    "zone": "",
+    "link": "https://monsterhunterworld.wiki.fextralife.com/A+Master's+Toast"
   },
   "Astera Beer": {
     "name": "Astera Beer",
     "type": "Drink",
     "skill": "Fortune",
     "source": "Quest",
-    "notes": "Double Diablos 7* - Requires Goldenfish Brew",
-    "zone": ""
+    "notes": "7* RRRRRumble in the Waste! - Requires Goldenfish Brew",
+    "zone": "Wildspire Waste",
+    "link":
+      "https://monsterhunterworld.wiki.fextralife.com/RRRRRumble+in+the+Waste!"
   },
   "Blessed Wine": {
     "name": "Blessed Wine",
     "type": "Drink",
     "skill": "Fortune",
     "source": "Piscine Researcher",
-    "notes": "Ancient Fish",
-    "zone": ""
+    "notes":
+      "Research Help: Capture the Ancient - Fish up a Pericanth \n Rotten Vale - sector 15; Elder's Recess - sector 8",
+    "zone": "Rotten Vale",
+    "link": "https://monsterhunterworld.wiki.fextralife.com/Petricanths"
   }
 }
