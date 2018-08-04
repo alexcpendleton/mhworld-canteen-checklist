@@ -4,7 +4,7 @@
     "type": "Meat",
     "skill": "Courage",
     "source": "Starter",
-    "notes": "--",
+    "notes": "",
     "zone": ""
   },
   "Wyvern Skirt Steak": {
@@ -12,7 +12,7 @@
     "type": "Meat",
     "skill": "Courage",
     "source": "Starter",
-    "notes": "--",
+    "notes": "",
     "zone": ""
   },
   "Wyvern Egg": {
@@ -20,98 +20,112 @@
     "type": "Meat",
     "skill": "Courage",
     "source": "Quest",
-    "notes": "Getting Yolked in the Forest",
-    "zone": ""
+    "notes": "Gettin' Yolked in the Forest",
+    "link":
+      "https://monsterhunterworld.wiki.fextralife.com/Gettin'+Yolked+in+the+Forest",
+    "zone": "Ancient Forest"
   },
   "Wyvern Tail": {
     "name": "Wyvern Tail",
     "type": "Meat",
     "skill": "Courage",
-    "source": "???",
-    "zone": ""
+    "source": "Research",
+    "notes": "Woodland Pteryx Capture",
+    "link": "https://monsterhunterworld.wiki.fextralife.com/Woodland+Pteryx",
+    "zone": "Ancient Forest"
   },
   "Wyvern Head": {
     "name": "Wyvern Head",
     "type": "Meat",
     "skill": "Courage",
-    "source": "Assigned Quest",
+    "source": "Quest",
     "notes": "Flying Sparks: Tobi-Kadachi",
-    "zone": ""
+    "link":
+      "https://monsterhunterworld.wiki.fextralife.com/Flying+Sparks:+Tobi-Kadachi",
+    "zone": "Ancient Forest"
   },
   "Wyvern Filet": {
     "name": "Wyvern Filet",
     "type": "Meat",
     "skill": "Courage",
-    "source": "Gather: Upsurge",
+    "source": "Gather",
     "notes":
       "Upsurge: Amber Deposits - Twilight Stones\n(Must befriend Gajakala to access the required area)",
-    "zone": "Elder's Recess"
+    "zone": "Elder's Recess",
+    "link": "https://monsterhunterworld.wiki.fextralife.com/Twilight+Stone"
   },
   "Tough Meat": {
     "name": "Tough Meat",
     "type": "Meat",
     "skill": "Resilience",
-    "source": "Assigned Quest",
+    "source": "Quest",
     "notes": "Flying Sparks: Tobi-Kadachi",
-    "zone": ""
+    "link":
+      "https://monsterhunterworld.wiki.fextralife.com/Flying+Sparks:+Tobi-Kadachi",
+    "zone": "Ancient Forest"
   },
   "Thorny Meat": {
     "name": "Thorny Meat",
     "type": "Meat",
     "skill": "Resilience",
-    "source": "Assigned Quest",
+    "source": "Quest",
     "notes": "Flying Sparks: Tobi-Kadachi",
-    "zone": ""
+    "link":
+      "https://monsterhunterworld.wiki.fextralife.com/Flying+Sparks:+Tobi-Kadachi",
+    "zone": "Ancient Forest"
   },
   "Bullion Meat": {
     "name": "Bullion Meat",
     "type": "Meat",
     "skill": "Resilience",
-    "source": "???",
+    "source": "",
     "zone": ""
   },
   "Steeled Meat": {
     "name": "Steeled Meat",
     "type": "Meat",
     "skill": "Resilience",
-    "source": "???",
+    "source": "",
     "zone": ""
   },
   "Wild Chiken": {
     "name": "Wild Chiken",
     "type": "Meat",
     "skill": "Resilience",
-    "source": "???",
+    "source": "",
     "zone": ""
   },
   "Marinated Carpaccio": {
     "name": "Marinated Carpaccio",
     "type": "Meat",
     "skill": "Resilience",
-    "source": "???",
+    "source": "",
     "zone": ""
   },
   "Aptonoth Meat": {
     "name": "Aptonoth Meat",
     "type": "Meat",
     "skill": "Vigor",
-    "source": "???",
-    "zone": ""
+    "source": "Quest",
+    "zone": "Wildspire Waste",
+    "notes": "Tickled Pink",
+    "link": "https://monsterhunterworld.wiki.fextralife.com/Tickled+Pink"
   },
   "Apceroast": {
     "name": "Apceroast",
     "type": "Meat",
     "skill": "Vigor",
-    "source": "???",
-    "zone": ""
+    "source": "Quest",
+    "zone": "Wildspire Waste",
+    "notes": "Tickled Pink",
+    "link": "https://monsterhunterworld.wiki.fextralife.com/Tickled+Pink"
   },
   "Diced Steak": {
     "name": "Diced Steak",
     "type": "Meat",
     "skill": "Vigor",
     "source": "Delivery",
-    "notes":
-      "A Great Help - 1 Mega Potion - Triggered after first or second quest?",
+    "notes": "A Great Help - 1 Mega Potion",
     "zone": ""
   },
   "Giant Sirloin": {
@@ -126,7 +140,7 @@
     "name": "Big Bite Burger",
     "type": "Meat",
     "skill": "Vigor",
-    "source": "Gather: Upsurge",
+    "source": "Gather",
     "notes": "Upsurge: Ancient Fossil - Wicked Fossil",
     "zone": "Rotten Vale"
   },
@@ -143,7 +157,7 @@
     "type": "Meat",
     "skill": "Acumen",
     "source": "Starter",
-    "notes": "--",
+    "notes": "",
     "zone": ""
   },
   "Barbecued Short Rib": {
@@ -151,22 +165,22 @@
     "type": "Meat",
     "skill": "Acumen",
     "source": "Starter",
-    "notes": "--",
+    "notes": "",
     "zone": ""
   },
   "Tangy Tripe": {
     "name": "Tangy Tripe",
     "type": "Meat",
     "skill": "Acumen",
-    "source": "???",
+    "source": "",
     "zone": ""
   },
   "Hot Heart": {
     "name": "Hot Heart",
     "type": "Meat",
     "skill": "Acumen",
-    "source": "Gather: Upsurge",
-    "notes": "Upsurge: Oyster? - Pearl Node - Platinum Pearl",
+    "source": "Gather",
+    "notes": "Upsurge: Oyster - Pearl Node - Platinum Pearl",
     "zone": "Coral Highlands"
   },
   "Rich Rump": {
@@ -175,21 +189,21 @@
     "skill": "Acumen",
     "source": "Delivery",
     "notes":
-      "The Juicy Meat Resistance - 1 Uragaan Scute - Triggered by Completing Elder Dragon research after Nergigante",
+      "The Juicy Meat Resistance - 1 Uragaan Scute \n Triggered by Completing Elder Dragon research after Nergigante",
     "zone": ""
   },
   "Grand Foie Gras": {
     "name": "Grand Foie Gras",
     "type": "Meat",
     "skill": "Acumen",
-    "source": "???",
+    "source": "",
     "zone": ""
   },
   "Peon Turkey": {
     "name": "Peon Turkey",
     "type": "Meat",
     "skill": "Artillery",
-    "source": "Endemic Research Delivery",
+    "source": "Delivery",
     "notes": "Gather 9 Carrier Ants",
     "zone": ""
   },
@@ -208,56 +222,61 @@
     "skill": "Artillery",
     "source": "Quest",
     "notes": "Getting Yolked in the Waste",
-    "zone": ""
+    "zone": "Wildspire Waste"
   },
   "King Turkey": {
     "name": "King Turkey",
     "type": "Meat",
     "skill": "Artillery",
-    "source": "???",
+    "source": "",
     "zone": ""
   },
   "Magma Mutton": {
     "name": "Magma Mutton",
     "type": "Meat",
     "skill": "Artillery",
-    "source": "???",
+    "source": "",
     "zone": ""
   },
   "Kaiser Turkey": {
     "name": "Kaiser Turkey",
     "type": "Meat",
     "skill": "Artillery",
-    "source": "???",
-    "zone": ""
+    "source": "Gather",
+    "notes": "Abyssal Beryl",
+    "zone": "Elder's Recess"
   },
   "Ridgemane Tuna": {
     "name": "Ridgemane Tuna",
     "type": "Fish",
     "skill": "Courage",
-    "source": "Assigned Quest",
+    "source": "Quest",
     "notes": "Flying Sparks: Tobi-Kadachi",
-    "zone": ""
+    "link":
+      "https://monsterhunterworld.wiki.fextralife.com/Flying+Sparks:+Tobi-Kadachi",
+    "zone": "Ancient Forest"
   },
   "Serpentine Salmon": {
     "name": "Serpentine Salmon",
     "type": "Fish",
     "skill": "Courage",
-    "source": "???",
-    "zone": ""
+    "source": "Quest",
+    "zone": "Wildspire Waste",
+    "notes": "Tickled Pink",
+    "link": "https://monsterhunterworld.wiki.fextralife.com/Tickled+Pink"
   },
   "Courageous Eel": {
     "name": "Courageous Eel",
     "type": "Fish",
     "skill": "Courage",
-    "source": "???",
+    "source": "",
     "zone": ""
   },
   "Sushifish": {
     "name": "Sushifish",
     "type": "Fish",
     "skill": "Courage",
-    "source": "???",
+    "source": "",
     "zone": ""
   },
   "Ancient Seabream": {
@@ -266,14 +285,14 @@
     "skill": "Courage",
     "source": "Delivery",
     "notes":
-      "Ancient But Fresh! - 1 Grand Gajau Whisker - Triggered by HR Gajau kill?",
+      "Ancient But Fresh! - 1 Grand Gajau Whisker \n Triggered by HR Gajau kill",
     "zone": ""
   },
   "Boorish Yellowtail": {
     "name": "Boorish Yellowtail",
     "type": "Fish",
     "skill": "Courage",
-    "source": "???",
+    "source": "",
     "zone": ""
   },
   "Jumbo Whelk": {
@@ -281,7 +300,7 @@
     "type": "Fish",
     "skill": "Resilience",
     "source": "Starter",
-    "notes": "--",
+    "notes": "",
     "zone": ""
   },
   "Scallop Chips": {
@@ -289,7 +308,7 @@
     "type": "Fish",
     "skill": "Resilience",
     "source": "Starter",
-    "notes": "--",
+    "notes": "",
     "zone": ""
   },
   "Choice Abalone": {
@@ -304,7 +323,7 @@
     "name": "Violet Abalone",
     "type": "Fish",
     "skill": "Resilience",
-    "source": "Gather: Upsurge",
+    "source": "Gather",
     "notes": "Upsurge: Conch Shells - Unique",
     "zone": "Coral Highlands"
   },
@@ -328,61 +347,70 @@
     "name": "Squad Sardine",
     "type": "Fish",
     "skill": "Vigor",
-    "source": "Assigned Quest",
+    "source": "Quest",
     "notes": "Flying Sparks: Tobi-Kadachi",
-    "zone": ""
+    "link":
+      "https://monsterhunterworld.wiki.fextralife.com/Flying+Sparks:+Tobi-Kadachi",
+    "zone": "Ancient Forest"
   },
   "Samurai Tuna": {
     "name": "Samurai Tuna",
     "type": "Fish",
     "skill": "Vigor",
-    "source": "Assigned Quest",
+    "source": "Quest",
     "notes": "Flying Sparks: Tobi-Kadachi",
-    "zone": ""
+    "link":
+      "https://monsterhunterworld.wiki.fextralife.com/Flying+Sparks:+Tobi-Kadachi",
+    "zone": "Ancient Forest"
   },
   "Gajau Gill": {
     "name": "Gajau Gill",
     "type": "Fish",
     "skill": "Vigor",
     "source": "Delivery",
-    "notes": "A Feast of Fish - 1 Gajau Skin - Triggered by LR Gajau Kill?",
+    "notes": "A Feast of Fish - 1 Gajau Skin - Triggered by LR Gajau Kill",
     "zone": ""
   },
   "Gajou Liver": {
     "name": "Gajou Liver",
     "type": "Fish",
     "skill": "Vigor",
-    "source": "???",
+    "source": "",
     "zone": ""
   },
   "Shogun Tuna": {
     "name": "Shogun Tuna",
     "type": "Fish",
     "skill": "Vigor",
-    "source": "???",
+    "source": "",
     "zone": ""
   },
   "Fiery Seabream": {
     "name": "Fiery Seabream",
     "type": "Fish",
     "skill": "Vigor",
-    "source": "Gather: Upsurge",
+    "source": "Gather",
     "notes": "Upsurge: Beryl Deposit - Noahstone",
-    "zone": "Elder's Recess"
+    "zone": "Elder's Recess",
+    "link": "https://monsterhunterworld.wiki.fextralife.com/Noahstone"
   },
   "Bent-backed Shrimp": {
     "name": "Bent-backed Shrimp",
     "type": "Fish",
     "skill": "Acumen",
-    "source": "???",
-    "zone": ""
+    "source": "Quest",
+    "zone": "Wildspire Waste",
+    "notes": "Tickled Pink",
+    "link": "https://monsterhunterworld.wiki.fextralife.com/Tickled+Pink"
   },
   "Armor Crab": {
     "name": "Armor Crab",
     "type": "Fish",
     "skill": "Acumen",
-    "source": "???",
-    "zone": ""
+    "source": "Quest",
+    "zone": "Wildspire Waste",
+    "notes": "Tickled Pink",
+    "link": "https://monsterhunterworld.wiki.fextralife.com/Tickled+Pink"
   },
   "Coral Shrimp": {
     "name": "Coral Shrimp",
@@ -396,7 +424,7 @@
     "name": "Fortress Crab",
     "type": "Fish",
     "skill": "Acumen",
-    "source": "???",
+    "source": "",
     "zone": ""
   },
   "Queen Shrimp": {
@@ -420,21 +448,25 @@
     "name": "Osseoctopus",
     "type": "Fish",
     "skill": "Artillery",
-    "source": "???",
-    "zone": ""
+    "source": "Quest",
+    "zone": "Wildspire Waste",
+    "notes": "Tickled Pink",
+    "link": "https://monsterhunterworld.wiki.fextralife.com/Tickled+Pink"
   },
   "Pink Caviar": {
     "name": "Pink Caviar",
     "type": "Fish",
     "skill": "Artillery",
-    "source": "???",
-    "zone": ""
+    "source": "Quest",
+    "zone": "Wildspire Waste",
+    "notes": "Tickled Pink",
+    "link": "https://monsterhunterworld.wiki.fextralife.com/Tickled+Pink"
   },
   "Lily Squid": {
     "name": "Lily Squid",
     "type": "Fish",
     "skill": "Artillery",
-    "source": "???",
+    "source": "",
     "zone": ""
   },
   "Ballerina Octopus": {
@@ -449,30 +481,34 @@
     "name": "Soulful Caviar",
     "type": "Fish",
     "skill": "Artillery",
-    "source": "???",
+    "source": "",
     "zone": ""
   },
   "Sovereign Squid": {
     "name": "Sovereign Squid",
     "type": "Fish",
     "skill": "Artillery",
-    "source": "???",
+    "source": "",
     "zone": ""
   },
   "Magnicelery": {
     "name": "Magnicelery",
     "type": "Vegetable",
     "skill": "Courage",
-    "source": "Assigned Quest",
+    "source": "Quest",
     "notes": "Flying Sparks: Tobi-Kadachi",
+    "link":
+      "https://monsterhunterworld.wiki.fextralife.com/Flying+Sparks:+Tobi-Kadachi",
     "zone": ""
   },
   "Rapscallion": {
     "name": "Rapscallion",
     "type": "Vegetable",
     "skill": "Courage",
-    "source": "Assigned Quest",
+    "source": "Quest",
     "notes": "Flying Sparks: Tobi-Kadachi",
+    "link":
+      "https://monsterhunterworld.wiki.fextralife.com/Flying+Sparks:+Tobi-Kadachi",
     "zone": ""
   },
   "Jewel Cactus": {
@@ -487,7 +523,7 @@
     "name": "Dragonbloom",
     "type": "Vegetable",
     "skill": "Courage",
-    "source": "Gather: Upsurge",
+    "source": "Gather",
     "notes": "Flourishing: Cacti - Round Cactus - Uncommon",
     "zone": "Wildspire Waste"
   },
@@ -512,14 +548,14 @@
     "name": "Stonecorn",
     "type": "Vegetable",
     "skill": "Resilience",
-    "source": "???",
+    "source": "",
     "zone": ""
   },
   "Steadfast Spud": {
     "name": "Steadfast Spud",
     "type": "Vegetable",
     "skill": "Resilience",
-    "source": "???",
+    "source": "",
     "zone": ""
   },
   "Exquisite Shroomcap": {
@@ -534,7 +570,7 @@
     "name": "Moonlit Mushroom",
     "type": "Vegetable",
     "skill": "Resilience",
-    "source": "Gather: Upsurge",
+    "source": "Gather",
     "notes": "Flourishing: Mushrooms",
     "link": "https://monsterhunterworld.wiki.fextralife.com/Moonlit+Mushroom",
     "zone": "Ancient Forest"
@@ -561,7 +597,7 @@
     "type": "Vegetable",
     "skill": "Vigor",
     "source": "Starter",
-    "notes": "--",
+    "notes": "",
     "zone": ""
   },
   "Cludgel Onion": {
@@ -569,7 +605,7 @@
     "type": "Vegetable",
     "skill": "Vigor",
     "source": "Starter",
-    "notes": "--",
+    "notes": "",
     "zone": ""
   },
   "Shinebloom": {
@@ -584,7 +620,7 @@
     "name": "Sunkissed Grass",
     "type": "Vegetable",
     "skill": "Vigor",
-    "source": "Gather: Upsurge",
+    "source": "Gather",
     "notes": "Flourishing: Flowerbed",
     "link": "https://monsterhunterworld.wiki.fextralife.com/Sunkissed+Herb",
     "zone": "Ancient Forest"
@@ -603,7 +639,7 @@
     "skill": "Vigor",
     "source": "Delivery",
     "notes":
-      "Mushrooms: Nature's Smelly Bounty - 1 Mosswine Hide - Triggered by ???",
+      "Mushrooms: Nature's Smelly Bounty - 1 Mosswine Hide - Triggered by ",
     "zone": ""
   },
   "Aromaticelery": {
@@ -612,7 +648,7 @@
     "skill": "Acumen",
     "source": "Delivery",
     "notes":
-      "A Veggie Master of Disguise - 1 Hornetaur Carapace - Triggered by ???",
+      "A Veggie Master of Disguise - 1 Hornetaur Carapace - Triggered by ",
     "zone": ""
   },
   "Prismatic Paprika": {
@@ -621,7 +657,7 @@
     "skill": "Acumen",
     "source": "Delivery",
     "notes":
-      "Phantasmagoric Paprika! - 1 Pukei-Pukei Sac+ - Trigger for Quest: ???",
+      "Phantasmagoric Paprika! - 1 Pukei-Pukei Sac+ - Trigger for Quest: ",
     "zone": ""
   },
   "Tainted Fruit": {
@@ -636,7 +672,7 @@
     "name": "Heavenberry",
     "type": "Vegetable",
     "skill": "Acumen",
-    "source": "Gather: Upsurge",
+    "source": "Gather",
     "notes": "Flourishing: Crimson Fruit - Crimson Fruit",
     "zone": "Rotten Vale"
   },
@@ -653,21 +689,21 @@
     "type": "Vegetable",
     "skill": "Acumen",
     "source": "Delivery",
-    "notes": "Million Zenny Veggie - 1 Girros Fang - Trigger for Quest: ???",
+    "notes": "Million Zenny Veggie - 1 Girros Fang - Trigger for Quest: ",
     "zone": ""
   },
   "Kut-Ku Bean": {
     "name": "Kut-Ku Bean",
     "type": "Vegetable",
     "skill": "Artillery",
-    "source": "???",
+    "source": "",
     "zone": ""
   },
   "Molten Mango": {
     "name": "Molten Mango",
     "type": "Vegetable",
     "skill": "Artillery",
-    "source": "???",
+    "source": "",
     "zone": ""
   },
   "Rockfruit": {
@@ -682,7 +718,7 @@
     "name": "Divineapple",
     "type": "Vegetable",
     "skill": "Artillery",
-    "source": "Gather: Upsurge",
+    "source": "Gather",
     "notes": "Flourishing: Fruit - Tough-skinned Fruit - Uncommon",
     "zone": "Wildspire Waste"
   },
