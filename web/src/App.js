@@ -54,14 +54,17 @@ class App extends Component {
     const isAllActive = this.state.activeTab === "all";
     return (
       <div className="App">
-        <nav aria-label="You are here:" className="menu align-center">
+        <h1>
+          <abbr title="Monster Hunter World">MHW</abbr> Canteen Checklist
+        </h1>
+        <nav className="menu align-center">
           <Tabs>
             <TabItem isActive={isCategoryActive}>
               <button
                 className={this.deriveButtonClass(isCategoryActive)}
                 onClick={() => this.selectTab("category")}
               >
-                Category
+                By Category
               </button>
             </TabItem>
             <TabItem isActive={isZoneActive}>
@@ -69,7 +72,7 @@ class App extends Component {
                 className={this.deriveButtonClass(isZoneActive)}
                 onClick={() => this.selectTab("zone")}
               >
-                Zone
+                By Zone
               </button>
             </TabItem>
             <TabItem isActive={isAllActive}>

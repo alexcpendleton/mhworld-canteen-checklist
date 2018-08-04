@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Tabs, TabItem, TabPanel, TabsContent } from "react-foundation";
+import { Notes } from "./Notes";
 class GameView extends Component {
   constructor(props) {
     super(props);
@@ -10,6 +11,8 @@ class GameView extends Component {
     this.renderType = this.renderType.bind(this);
     this.deriveButtonClass = this.deriveButtonClass.bind(this);
     this.renderTabItemFor = this.renderTabItemFor.bind(this);
+    this.renderDetails = this.renderDetails.bind(this);
+    this.renderZoneSource = this.renderZoneSource.bind(this);
     this.handleFoundChange = this.handleFoundChange.bind(this);
     this.selectTab = this.selectTab.bind(this);
   }
@@ -93,10 +96,32 @@ class GameView extends Component {
               this.handleFoundChange(event, key);
             }}
           />
-          {ingredient.name}
         </label>
+        <div className="name">{ingredient.name}</div>
+        {this.renderDetails(ingredient)}
       </div>
     );
+  }
+  renderDetails(ingredient) {
+    if (!ingredient.zone && !ingredient.source && !ingredient.notes) {
+      return null;
+    }
+    return (
+      <div class="details">
+        <div class="zone-source">{this.renderZoneSource(ingredient)}</div>
+        <Notes ingredient={ingredient} />
+      </div>
+    );
+  }
+  renderZoneSource(ingredient) {
+    const parts = [];
+    if (ingredient.zone) {
+      parts.push(ingredient.zone);
+    }
+    if (ingredient.source) {
+      parts.push(ingredient.source);
+    }
+    return parts.join(" - ");
   }
   handleFoundChange(event, key) {
     const target = event.target;

@@ -51,11 +51,6 @@ class IngredientTable extends Component {
               Header: "Notes",
               accessor: "notes",
               Cell: this.renderNotesInRow
-            },
-            {
-              Header: "Skill",
-              accessor: "skill",
-              maxWidth: 120
             }
           ]}
           defaultPageSize={200}

@@ -1,17 +1,33 @@
 .cell {
   border: solid 1px #000;
 }
+h1 {
+  text-align: center;
+}
 .game-view-ingredient {
   text-align: center;
 }
 .game-view-ingredient label {
   padding: 1rem 0;
+  cursor: pointer;
 }
 .game-view-ingredient input {
   display: inline-block;
   width: auto;
   text-align: center;
   margin: 0;
+}
+.game-view-ingredient .notes {
+  white-space: pre-wrap;
+}
+label > [type="checkbox"] {
+  margin: 0;
+}
+.game-view-ingredient .name {
+  font-weight: bold;
+}
+.game-view-ingredient .zone-source {
+  text-decoration: underline;
 }
 .single-zone .found {
   text-decoration: line-through;
@@ -21,6 +37,7 @@
 }
 .ingredient-table .notes {
   width: 80%;
+  white-space: pre-wrap;
 }
 .single-zone .found-column {
   margin: 0;

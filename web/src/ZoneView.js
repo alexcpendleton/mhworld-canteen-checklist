@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Notes } from "./Notes";
 
 class IngredientTable extends Component {
   constructor(props) {
@@ -45,20 +46,14 @@ class IngredientTable extends Component {
   }
   renderOne(key, ingredient, zone) {
     const foundClass = ingredient.found ? "found" : "not-found";
-    let notes = ingredient.notes;
-    if (ingredient.link) {
-      notes = (
-        <a href={ingredient.link} target="_blank">
-          {ingredient.notes}
-        </a>
-      );
-    }
+    let notes = <Notes ingredient={ingredient} />;
     return (
       <tr key={key} className={foundClass}>
         <td className="found-column">
           {this.renderFound(key, ingredient, zone)}
         </td>
         <td>{ingredient.name}</td>
+        <td>{ingredient.source}</td>
         <td>{notes}</td>
       </tr>
     );
