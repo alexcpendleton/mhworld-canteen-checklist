@@ -10,7 +10,7 @@
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-foundation": "^0.9.5",
-    "react-scripts": "1.1.1",
+    "react-scripts": "1.1.4",
     "react-table": "^6.8.0"
   },
   "scripts": {
