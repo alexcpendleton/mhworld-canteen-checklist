@@ -1,14 +1,29 @@
 import React, { Component } from "react";
 import { Notes } from "./Notes";
+import { Tabs, TabItem, TabPanel, TabsContent } from "react-foundation";
 
 class IngredientTable extends Component {
   constructor(props) {
     super(props);
+    this.state = {
+      activeTab: "Ancient Forest"
+    };
     this.renderOne = this.renderOne.bind(this);
+    this.renderZone = this.renderZone.bind(this);
     this.renderFound = this.renderFound.bind(this);
+    this.renderTabItemFor = this.renderTabItemFor.bind(this);
+    this.deriveButtonClass = this.deriveButtonClass.bind(this);
     this.handleFoundChange = this.handleFoundChange.bind(this);
+    this.selectTab = this.selectTab.bind(this);
   }
   render() {
+    const orderedZones = [
+      "Ancient Forest",
+      "Wildspire Waste",
+      "Coral Highlands",
+      "Rotten Vale",
+      "Elder's Recess"
+    ];
     const byZone = {
       "Ancient Forest": [],
       "Wildspire Waste": [],
@@ -26,22 +41,50 @@ class IngredientTable extends Component {
 
     return (
       <div>
-        {this.renderZone("Ancient Forest", byZone["Ancient Forest"])}
-        {this.renderZone("Wildspire Waste", byZone["Wildspire Waste"])}
-        {this.renderZone("Coral Highlands", byZone["Coral Highlands"])}
-        {this.renderZone("Rotten Vale", byZone["Rotten Vale"])}
-        {this.renderZone("Elder's Recess", byZone["Elder's Recess"])}
+        <nav class="menu align-center">
+          <Tabs>{orderedZones.map(this.renderTabItemFor)}</Tabs>
+        </nav>
+        <TabsContent>
+          {this.renderZone("Ancient Forest", byZone["Ancient Forest"])}
+          {this.renderZone("Wildspire Waste", byZone["Wildspire Waste"])}
+          {this.renderZone("Coral Highlands", byZone["Coral Highlands"])}
+          {this.renderZone("Rotten Vale", byZone["Rotten Vale"])}
+          {this.renderZone("Elder's Recess", byZone["Elder's Recess"])}
+        </TabsContent>
       </div>
     );
   }
-  renderZone(name, ingredients) {
+  deriveButtonClass(isActive) {
+    const type = isActive ? "secondary" : "clear";
+    return `${type} button`;
+  }
+  renderTabItemFor(zoneName) {
+    const isActive = this.state.activeTab === zoneName;
+    const buttonClass = this.deriveButtonClass(isActive);
     return (
-      <div key={name} className="single-zone">
-        <h3>{name}</h3>
-        <table>
-          <tbody>{ingredients.map(i => this.renderOne(i.name, i, name))}</tbody>
-        </table>
-      </div>
+      <TabItem isActive={isActive} key={zoneName}>
+        <button
+          className={buttonClass}
+          onClick={() => this.selectTab(zoneName)}
+        >
+          {zoneName}
+        </button>
+      </TabItem>
+    );
+  }
+  renderZone(name, ingredients) {
+    const isActive = this.state.activeTab === name;
+    return (
+      <TabPanel isActive={isActive} key={name}>
+        <div className="single-zone">
+          <h3>{name}</h3>
+          <table>
+            <tbody>
+              {ingredients.map(i => this.renderOne(i.name, i, name))}
+            </tbody>
+          </table>
+        </div>
+      </TabPanel>
     );
   }
   renderOne(key, ingredient, zone) {
@@ -80,6 +123,10 @@ class IngredientTable extends Component {
     if (this.props.onFoundChange) {
       this.props.onFoundChange(key, found);
     }
+  }
+  selectTab(tabId) {
+    if (this.state.tabId === tabId) return;
+    this.setState({ activeTab: tabId });
   }
 }
 
