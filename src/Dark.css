@@ -1,0 +1,48 @@
+.theme-dark {
+  background: hsla(0, 0%, 14%, 1);
+  color: #d4d4d4;
+}
+.theme-dark .tabs-content {
+  background: transparent;
+  color: #d4d4d4;
+}
+.theme-dark .cell-a {
+  background: transparent;
+}
+.theme-dark .cell-b {
+  background: hsla(0, 0%, 20%, 1);
+}
+.theme-dark .game-view .grid-container {
+  border: 1px solid hsla(0, 0%, 30%, 1);
+}
+.theme-dark a {
+  color: #569cd6;
+}
+.theme-dark .tabs {
+  border-color: hsla(0, 0%, 30%, 1);
+  background: hsla(0, 0%, 14%, 1);
+}
+.theme-dark .button.primary {
+  background-color: hsla(0, 0%, 20%, 1);
+  color: #fefefe;
+}
+.theme-dark .button.secondary {
+  background-color: hsla(0, 0%, 20%, 1);
+  color: #fefefe;
+}
+.theme-dark .button.clear {
+  color: #569cd6;
+}
+
+.theme-dark table tbody {
+  background: transparent;
+}
+.theme-dark table tbody tr:nth-child(even) {
+  background: hsla(0, 0%, 20%, 1);
+}
+.theme-dark .rt-tr.-even {
+  background: hsla(0, 0%, 20%, 1);
+}
+.theme-dark .rt-thead {
+  background: hsla(0, 0%, 20%, 1);
+}

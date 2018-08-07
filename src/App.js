@@ -6,6 +6,7 @@ import ZoneView from "./ZoneView";
 import rawIngredients from "./data/ingredients.json";
 import { Tabs, TabItem, TabPanel, TabsContent } from "react-foundation";
 import "foundation-sites/dist/css/foundation.min.css";
+import "./Dark.css";
 
 class App extends Component {
   constructor(props) {
@@ -14,12 +15,19 @@ class App extends Component {
       loaded: false,
       loading: false,
       ingredients: [],
-      activeTab: "category"
+      activeTab: "category",
+      theme: ""
     };
+    this.darkThemeName = "theme-dark";
     this.componentDidMount = this.componentDidMount.bind(this);
     this.handleFoundChange = this.handleFoundChange.bind(this);
     this.selectTab = this.selectTab.bind(this);
     this.deriveButtonClass = this.deriveButtonClass.bind(this);
+    this.loadTheme = this.loadTheme.bind(this);
+    this.setTheme = this.setTheme.bind(this);
+    this.toggleDarkTheme = this.toggleDarkTheme.bind(this);
+    this.isUsingDarkTheme = this.isUsingDarkTheme.bind(this);
+    this.renderThemeButton = this.renderThemeButton.bind(this);
     this.storage = {
       changeOne: (key, value) => {
         let all = JSON.parse(localStorage.getItem("found"));
@@ -52,8 +60,10 @@ class App extends Component {
     const isCategoryActive = this.state.activeTab === "category";
     const isZoneActive = this.state.activeTab === "zone";
     const isAllActive = this.state.activeTab === "all";
+    const theme = this.state.theme;
+    const appClass = `App ${theme}`;
     return (
-      <div className="App">
+      <div className={appClass}>
         <h1>
           <abbr title="Monster Hunter World">MHW</abbr> Canteen Checklist
         </h1>
@@ -130,11 +140,13 @@ class App extends Component {
               Github issue
             </a>.
           </p>
+          {this.renderThemeButton()}
         </section>
       </div>
     );
   }
   componentDidMount() {
+    this.loadTheme();
     this.loadData();
   }
   selectTab(tabId) {
@@ -175,6 +187,31 @@ class App extends Component {
       ingredients: this.state.ingredients
     });
     this.storage.changeOne(key, found);
+  }
+  loadTheme() {
+    let theme = localStorage.getItem("theme");
+    this.setState({ theme });
+  }
+  setTheme(theme) {
+    this.setState({ theme }, localStorage.setItem("theme", theme));
+  }
+  toggleDarkTheme() {
+    let newThemeName = "";
+    if (!this.isUsingDarkTheme()) {
+      newThemeName = this.darkThemeName;
+    }
+    this.setTheme(newThemeName);
+  }
+  isUsingDarkTheme() {
+    return this.state.theme === this.darkThemeName;
+  }
+  renderThemeButton() {
+    const text = this.isUsingDarkTheme() ? "Light Theme" : "Dark Theme";
+    return (
+      <button class="primary button" onClick={() => this.toggleDarkTheme()}>
+        {text}
+      </button>
+    );
   }
 }
 

@@ -2,7 +2,7 @@
   background: #fff;
 }
 .cell-b {
-  background: hsla(0, 0%, 90%, 0.4);
+  background: #e6e6e666;
 }
 h1 {
   text-align: center;
@@ -10,9 +10,8 @@ h1 {
 .App .tabs-content {
   border: 0;
 }
-.game-view .tabs-panel {
-  padding-left: 0;
-  padding-right: 0;
+.App .tabs-panel {
+  padding: 0.5rem 0;
 }
 .game-view .tabs-content {
   border: 0;
@@ -39,7 +38,7 @@ h1 {
 .game-view-ingredient .notes {
   white-space: pre-wrap;
 }
-label > [type="checkbox"] {
+.game-view-ingredient label > [type="checkbox"] {
   margin: 0;
 }
 .game-view-ingredient .name {
