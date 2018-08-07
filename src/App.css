@@ -38,7 +38,7 @@ h1 {
   text-align: center;
   margin: 0;
 }
-.game-view-ingredient .notes {
+.notes {
   white-space: pre-wrap;
 }
 .game-view-ingredient label > [type="checkbox"] {

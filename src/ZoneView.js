@@ -38,7 +38,7 @@ class IngredientTable extends Component {
 
     return (
       <div>
-        <nav class="menu align-center">
+        <nav className="menu align-center">
           <Tabs>{orderedZones.map(this.renderTabItemFor)}</Tabs>
         </nav>
         <TabsContent>

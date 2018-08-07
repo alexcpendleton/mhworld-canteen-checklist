@@ -60,8 +60,7 @@ class App extends Component {
     const isCategoryActive = this.state.activeTab === "category";
     const isZoneActive = this.state.activeTab === "zone";
     const isAllActive = this.state.activeTab === "all";
-    const theme = this.state.theme;
-    const appClass = `App ${theme}`;
+    const appClass = `App`;
     return (
       <div className={appClass}>
         <h1>
@@ -193,7 +192,13 @@ class App extends Component {
     this.setState({ theme });
   }
   setTheme(theme) {
-    this.setState({ theme }, localStorage.setItem("theme", theme));
+    this.setState({ theme }, function() {
+      localStorage.setItem("theme", theme);
+      if (theme) {
+        document.body.classList.remove([theme]);
+        document.body.classList.add(theme);
+      }
+    });
   }
   toggleDarkTheme() {
     let newThemeName = "";
@@ -208,7 +213,7 @@ class App extends Component {
   renderThemeButton() {
     const text = this.isUsingDarkTheme() ? "Light Theme" : "Dark Theme";
     return (
-      <button class="primary button" onClick={() => this.toggleDarkTheme()}>
+      <button className="primary button" onClick={() => this.toggleDarkTheme()}>
         {text}
       </button>
     );
