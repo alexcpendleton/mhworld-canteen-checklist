@@ -25,6 +25,7 @@ class App extends Component {
     this.deriveButtonClass = this.deriveButtonClass.bind(this);
     this.loadTheme = this.loadTheme.bind(this);
     this.setTheme = this.setTheme.bind(this);
+    this.applyTheme = this.applyTheme.bind(this);
     this.toggleDarkTheme = this.toggleDarkTheme.bind(this);
     this.isUsingDarkTheme = this.isUsingDarkTheme.bind(this);
     this.renderThemeButton = this.renderThemeButton.bind(this);
@@ -189,17 +190,20 @@ class App extends Component {
   }
   loadTheme() {
     let theme = localStorage.getItem("theme");
-    this.setState({ theme });
+    this.setTheme(theme);
   }
   setTheme(theme) {
     this.setState({ theme }, function() {
       localStorage.setItem("theme", theme);
-      if (theme) {
-        document.body.classList.add(theme);
-      } else {
-        document.body.classList.remove([this.darkThemeName]);
-      }
+      this.applyTheme(theme);
     });
+  }
+  applyTheme(theme) {
+    if (theme) {
+      document.body.classList.add(theme);
+    } else {
+      document.body.classList.remove([this.darkThemeName]);
+    }
   }
   toggleDarkTheme() {
     let newThemeName = "";
