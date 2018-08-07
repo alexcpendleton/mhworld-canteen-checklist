@@ -195,8 +195,9 @@ class App extends Component {
     this.setState({ theme }, function() {
       localStorage.setItem("theme", theme);
       if (theme) {
-        document.body.classList.remove([theme]);
         document.body.classList.add(theme);
+      } else {
+        document.body.classList.remove([this.darkThemeName]);
       }
     });
   }
