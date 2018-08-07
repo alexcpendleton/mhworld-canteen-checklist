@@ -24,13 +24,10 @@ class IngredientTable extends Component {
       "Rotten Vale",
       "Elder's Recess"
     ];
-    const byZone = {
-      "Ancient Forest": [],
-      "Wildspire Waste": [],
-      "Coral Highlands": [],
-      "Rotten Vale": [],
-      "Elder's Recess": []
-    };
+    const byZone = orderedZones.reduce((target, name) => {
+      target[name] = [];
+      return target;
+    }, {});
     Object.keys(this.props.ingredients).forEach(key => {
       const ingredient = this.props.ingredients[key];
       const zone = ingredient.zone;
