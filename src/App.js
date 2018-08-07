@@ -4,6 +4,7 @@ import GameView from "./GameView";
 import IngredientTable from "./IngredientTable";
 import ZoneView from "./ZoneView";
 import rawIngredients from "./data/ingredients.json";
+import { Shill } from "./Shill";
 import { Tabs, TabItem, TabPanel, TabsContent } from "react-foundation";
 import "foundation-sites/dist/css/foundation.min.css";
 import "./Dark.css";
@@ -140,6 +141,7 @@ class App extends Component {
               Github issue
             </a>.
           </p>
+          <Shill shill={this.props.shill} />
           {this.renderThemeButton()}
         </section>
       </div>
@@ -163,7 +165,7 @@ class App extends Component {
 
     for (const key in rawIngredients) {
       let item = Object.assign({}, rawIngredients[key]);
-      if (item.source == "Starter") {
+      if (item.source === "Starter") {
         found[key] = true;
       }
       item.found = found[key] != null;

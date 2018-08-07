@@ -7,7 +7,7 @@ export class Notes extends Component {
     if (!notes) return null;
     if (ingredient.link) {
       notes = (
-        <a href={ingredient.link} target="_blank">
+        <a href={ingredient.link} target="_blank" rel="noopener noreferrer">
           {notes}
         </a>
       );

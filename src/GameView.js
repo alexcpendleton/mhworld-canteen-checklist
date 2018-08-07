@@ -89,7 +89,7 @@ class GameView extends Component {
     const key = ingredient.name;
     let className = "ingredient game-view-ingredient small-2 cell";
     let rowMod = rowIndex % 2;
-    if (index % 2 == rowMod) {
+    if (index % 2 === rowMod) {
       className += " cell-a";
     } else {
       className += " cell-b";
