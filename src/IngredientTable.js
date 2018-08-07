@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-// Import React Table
+import { Notes } from "./Notes";
 import ReactTable from "react-table";
 import "react-table/react-table.css";
 
@@ -33,11 +33,6 @@ class IngredientTable extends Component {
               maxWidth: 200
             },
             {
-              Header: "Type",
-              accessor: "type",
-              maxWidth: 100
-            },
-            {
               Header: "Zone",
               accessor: "zone",
               maxWidth: 140
@@ -51,6 +46,11 @@ class IngredientTable extends Component {
               Header: "Notes",
               accessor: "notes",
               Cell: this.renderNotesInRow
+            },
+            {
+              Header: "Type",
+              accessor: "type",
+              maxWidth: 100
             }
           ]}
           defaultPageSize={200}
@@ -83,7 +83,8 @@ class IngredientTable extends Component {
   renderNotesInRow(row) {
     const o = row.original;
     if (o && o.notes) {
-      return <div className="notes">{o.notes}</div>;
+      //return <div className="notes">{o.notes}</div>;
+      return <Notes ingredient={o} />;
     }
     return "";
   }
