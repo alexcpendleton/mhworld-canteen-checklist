@@ -50,7 +50,7 @@
     "skill": "Courage",
     "source": "Gather",
     "notes":
-      "Upsurge: Amber Deposits - Twilight Stone\n(Must complete Cultural Exchange: Gajalaka Linguistics II)",
+      "Upsurge: Amber Deposits\nTwilight Stone\n(Must complete Cultural Exchange: Gajalaka Linguistics II)",
     "zone": "Elder's Recess",
     "link": "https://monsterhunterworld.wiki.fextralife.com/Twilight+Stone"
   },
@@ -104,7 +104,7 @@
     "skill": "Resilience",
     "source": "Gather",
     "zone": "Elder's Recess",
-    "notes": "Amber Deposit - Uncommon"
+    "notes": "Amber Deposit\nUncommon"
   },
   "Marinated Carpaccio": {
     "name": "Marinated Carpaccio",
@@ -145,7 +145,7 @@
     "type": "Meat",
     "skill": "Vigor",
     "source": "Delivery",
-    "notes": "A Great Help - 1 Mega Potion",
+    "notes": "A Great Help\n1 Mega Potion",
     "zone": ""
   },
   "Giant Sirloin": {
@@ -153,7 +153,7 @@
     "type": "Meat",
     "skill": "Vigor",
     "source": "Endemic Researcher",
-    "notes": "Scavantula - capture in sector 4 or 5",
+    "notes": "Scavantula\ncapture in sector 4 or 5",
     "zone": "Rotten Vale",
     "link":
       "https://monsterhunterworld.wiki.fextralife.com/Endemic+Life+Researcher"
@@ -163,7 +163,7 @@
     "type": "Meat",
     "skill": "Vigor",
     "source": "Gather",
-    "notes": "Upsurge: Ancient Fossil - Wicked Fossil",
+    "notes": "Upsurge: Ancient Fossil\nWicked Fossil",
     "zone": "Rotten Vale",
     "link": "https://monsterhunterworld.wiki.fextralife.com/Wicked+Fossil"
   },
@@ -172,7 +172,7 @@
     "type": "Meat",
     "skill": "Vigor",
     "source": "Gather",
-    "notes": "Ancient Amber - Rare gather from Amber Deposit",
+    "notes": "Ancient Amber\nRare gather from Amber Deposit",
     "zone": "Elder's Recess"
   },
   "White Liver": {
@@ -206,7 +206,7 @@
     "type": "Meat",
     "skill": "Acumen",
     "source": "Gather",
-    "notes": "Upsurge: Oyster - Pearl Node - Platinum Pearl",
+    "notes": "Upsurge: Oyster\nPearl Node\nPlatinum Pearl",
     "zone": "Coral Highlands",
     "link": "https://monsterhunterworld.wiki.fextralife.com/Platinum+Pearl"
   },
@@ -216,7 +216,7 @@
     "skill": "Acumen",
     "source": "Delivery",
     "notes":
-      "The Juicy Meat Resistance - 1 Uragaan Scute\nTriggered by Completing Elder Dragon research after Nergigante",
+      "The Juicy Meat Resistance\n1 Uragaan Scute\nTriggered by Completing Elder Dragon research after Nergigante",
     "zone": "",
     "link": "https://monsterhunterworld.wiki.fextralife.com/Deliveries"
   },
@@ -226,7 +226,7 @@
     "skill": "Acumen",
     "source": "Gather",
     "zone": "Elder's Recess",
-    "notes": "Beryl Deposit - True Beryl"
+    "notes": "Beryl Deposit\nTrue Beryl"
   },
   "Peon Turkey": {
     "name": "Peon Turkey",
@@ -234,7 +234,7 @@
     "skill": "Artillery",
     "source": "Endemic Life Researcher",
     "notes":
-      "Research Help: Carrier Ant Capture - Gather 9 Carrier Ants \n Sectors 1, 6, 8",
+      "Research Help: Carrier Ant Capture\nGather 9 Carrier Ants \n Sectors 1, 6, 8",
     "zone": "Wildspire Waste",
     "link": "https://monsterhunterworld.wiki.fextralife.com/Carrier+Ant"
   },
@@ -243,7 +243,7 @@
     "type": "Meat",
     "skill": "Artillery",
     "source": "Delivery",
-    "notes": "The Bone-In Roast Resistance - 1 Radobaan Carapace",
+    "notes": "The Bone-In Roast Resistance\n1 Radobaan Carapace",
     "zone": "Rotten Vale"
   },
   "Herbivore Egg": {
@@ -312,7 +312,7 @@
     "type": "Fish",
     "skill": "Courage",
     "source": "Endemic Life Researcher",
-    "notes": "Research Help: Pink Parexus Capture - sectors 1, 4, 9, 11",
+    "notes": "Research Help: Pink Parexus Capture\nsectors 1, 4, 9, 11",
     "zone": "Ancient Forest"
   },
   "Sushifish": {
@@ -320,7 +320,7 @@
     "type": "Fish",
     "skill": "Courage",
     "source": "Piscine Researcher",
-    "notes": "Research Help: Sushifish Capture - sectors 1, 6, 10",
+    "notes": "Research Help: Sushifish Capture\nsectors 1, 6, 10",
     "zone": "Wildspire Waste",
     "link": "https://monsterhunterworld.wiki.fextralife.com/Sushifish"
   },
@@ -330,7 +330,7 @@
     "skill": "Courage",
     "source": "Delivery",
     "notes":
-      "Ancient But Fresh! - 1 Grand Gajau Whisker \n Gathered from HR Gajau (mud fish)",
+      "Ancient But Fresh!\n1 Grand Gajau Whisker \n Gathered from HR Gajau (mud fish)",
     "zone": "Wildspire Waste"
   },
   "Boorish Yellowtail": {
@@ -366,7 +366,7 @@
     "type": "Fish",
     "skill": "Resilience",
     "source": "Gather",
-    "notes": "Conch Shell - Uncommon",
+    "notes": "Conch Shell\nUncommon",
     "zone": "Coral Highlands"
   },
   "Violet Abalone": {
@@ -383,7 +383,7 @@
     "type": "Fish",
     "skill": "Resilience",
     "source": "Gather",
-    "notes": "Conch Shell - Rare",
+    "notes": "Conch Shell\nRare",
     "zone": "Coral Highlands"
   },
   "Large-horned Turban": {
@@ -391,7 +391,7 @@
     "type": "Fish",
     "skill": "Resilience",
     "source": "Gather",
-    "notes": "Ancient Fossil - Mystical Fossil",
+    "notes": "Ancient Fossil\nMystical Fossil",
     "zone": "Rotten Vale"
   },
   "Squad Sardine": {
@@ -423,7 +423,7 @@
     "type": "Fish",
     "skill": "Vigor",
     "source": "Delivery",
-    "notes": "A Feast of Fish - 1 Gajau Skin - LR Gajau carve (mud fish)",
+    "notes": "A Feast of Fish\n1 Gajau Skin\nLR Gajau carve (mud fish)",
     "zone": "Wildspire Waste"
   },
   "Gajou Liver": {
@@ -443,7 +443,7 @@
     "skill": "Vigor",
     "source": "Piscine Researcher",
     "zone": "Rotten Vale",
-    "notes": "Research Help: Goldenfish Capture - sector 15",
+    "notes": "Research Help: Goldenfish Capture\nsector 15",
     "link": "https://monsterhunterworld.wiki.fextralife.com/Goldenfish"
   },
   "Fiery Seabream": {
@@ -451,7 +451,7 @@
     "type": "Fish",
     "skill": "Vigor",
     "source": "Gather",
-    "notes": "Upsurge: Beryl Deposit - Noahstone",
+    "notes": "Upsurge: Beryl Deposit\nNoahstone",
     "zone": "Elder's Recess",
     "link": "https://monsterhunterworld.wiki.fextralife.com/Noahstone"
   },
@@ -482,7 +482,7 @@
     "type": "Fish",
     "skill": "Acumen",
     "source": "Delivery",
-    "notes": "Princely Prawns - 1 Shamos Hide \n LR Shamos",
+    "notes": "Princely Prawns\n1 Shamos Hide \n LR Shamos",
     "zone": "Coral Highlands"
   },
   "Fortress Crab": {
@@ -498,7 +498,7 @@
     "type": "Fish",
     "skill": "Acumen",
     "source": "Gather",
-    "notes": "Pearls - Rare",
+    "notes": "Pearls\nRare",
     "zone": "Coral Highlands"
   },
   "Millenary Crab": {
@@ -506,7 +506,7 @@
     "type": "Fish",
     "skill": "Acumen",
     "source": "Delivery",
-    "notes": "A Thousand-Year-Old Crab!? - 1 Barnos Talon \n HR Barnos",
+    "notes": "A Thousand-Year-Old Crab!?\n1 Barnos Talon \n HR Barnos",
     "zone": "Elder's Recess",
     "link": "https://monsterhunterworld.wiki.fextralife.com/Barnos"
   },
@@ -545,7 +545,7 @@
     "type": "Fish",
     "skill": "Artillery",
     "source": "Piscene Researcher",
-    "notes": "Gunpowderfish Capture - sector 7",
+    "notes": "Gunpowderfish Capture\nsector 7",
     "zone": "Coral Highlands",
     "link": "https://monsterhunterworld.wiki.fextralife.com/Gunpowderfish"
   },
@@ -567,7 +567,7 @@
     "skill": "Artillery",
     "source": "Piscene Researcher",
     "zone": "Elder's Recess",
-    "notes": "Research Help: Platinumfish Capture - sectors 7, 8 (Eastern camp)"
+    "notes": "Research Help: Platinumfish Capture\nsectors 7, 8 (Eastern camp)"
   },
   "Magnicelery": {
     "name": "Magnicelery",
@@ -598,7 +598,7 @@
     "type": "Vegetable",
     "skill": "Courage",
     "source": "Gather",
-    "notes": "Round Cactus - Uncommon",
+    "notes": "Round Cactus\nUncommon",
     "zone": "Wildspire Waste"
   },
   "Dragonbloom": {
@@ -606,7 +606,7 @@
     "type": "Vegetable",
     "skill": "Courage",
     "source": "Gather",
-    "notes": "Flourishing: Cacti - Round Cactus",
+    "notes": "Flourishing: Cacti\nRound Cactus",
     "zone": "Wildspire Waste",
     "link": "https://monsterhunterworld.wiki.fextralife.com/Dragonbloom"
   },
@@ -615,7 +615,7 @@
     "type": "Vegetable",
     "skill": "Courage",
     "source": "Gather",
-    "notes": "Round Cactus - Rare (HR only)",
+    "notes": "Round Cactus\nRare (HR only)",
     "zone": "Wildspire Waste"
   },
   "Fatty Tomatoes": {
@@ -623,7 +623,7 @@
     "type": "Vegetable",
     "skill": "Courage",
     "source": "Delivery",
-    "notes": "Tomatoes Red as Magma - 1 Lava Nugget",
+    "notes": "Tomatoes Red as Magma\n1 Lava Nugget",
     "zone": "Elder's Recess"
   },
   "Stonecorn": {
@@ -653,7 +653,7 @@
     "type": "Vegetable",
     "skill": "Resilience",
     "source": "Gather",
-    "notes": "Mushroom Colony - Uncommon",
+    "notes": "Mushroom Colony\nUncommon",
     "zone": "Ancient Forest"
   },
   "Moonlit Mushroom": {
@@ -670,7 +670,7 @@
     "type": "Vegetable",
     "skill": "Resilience",
     "source": "Gather",
-    "notes": "Mushroom Colony - Rare",
+    "notes": "Mushroom Colony\nRare",
     "zone": "Ancient Forest"
   },
   "Soiled Shroomcap": {
@@ -703,7 +703,7 @@
     "type": "Vegetable",
     "skill": "Vigor",
     "source": "Gather",
-    "notes": "Flowerbed - Uncommon",
+    "notes": "Flowerbed\nUncommon",
     "zone": "Ancient Forest"
   },
   "Sunkissed Grass": {
@@ -711,7 +711,7 @@
     "type": "Vegetable",
     "skill": "Vigor",
     "source": "Gather",
-    "notes": "Flourishing: Flowerbed - Sunkissed Herb",
+    "notes": "Flourishing: Flowerbed\nSunkissed Herb",
     "link": "https://monsterhunterworld.wiki.fextralife.com/Sunkissed+Herb",
     "zone": "Ancient Forest"
   },
@@ -720,7 +720,7 @@
     "type": "Vegetable",
     "skill": "Vigor",
     "source": "Gather",
-    "notes": "Flowerbed - Rare (HR only)",
+    "notes": "Flowerbed\nRare (HR only)",
     "zone": "Ancient Forest"
   },
   "King Truffle": {
@@ -728,7 +728,7 @@
     "type": "Vegetable",
     "skill": "Vigor",
     "source": "Delivery",
-    "notes": "Mushrooms: Nature's Smelly Bounty - 1 Mosswine Hide",
+    "notes": "Mushrooms: Nature's Smelly Bounty\n1 Mosswine Hide",
     "zone": "Ancient Forest"
   },
   "Aromaticelery": {
@@ -736,7 +736,7 @@
     "type": "Vegetable",
     "skill": "Acumen",
     "source": "Delivery",
-    "notes": "A Veggie Master of Disguise - 1 Hornetaur Carapace",
+    "notes": "A Veggie Master of Disguise\n1 Hornetaur Carapace",
     "zone": "Rotten Vale"
   },
   "Prismatic Paprika": {
@@ -744,7 +744,7 @@
     "type": "Vegetable",
     "skill": "Acumen",
     "source": "Delivery",
-    "notes": "Phantasmagoric Paprika! - 1 Pukei-Pukei Sac+",
+    "notes": "Phantasmagoric Paprika!\n1 Pukei-Pukei Sac+",
     "zone": "Ancient Forest"
   },
   "Tainted Fruit": {
@@ -752,7 +752,7 @@
     "type": "Vegetable",
     "skill": "Acumen",
     "source": "Gather",
-    "notes": "Crimson Fruit - Uncommon",
+    "notes": "Crimson Fruit\nUncommon",
     "zone": "Rotten Vale"
   },
   "Heavenberry": {
@@ -769,7 +769,7 @@
     "type": "Vegetable",
     "skill": "Acumen",
     "source": "Gather",
-    "notes": "Crimson Fruit - Rare",
+    "notes": "Crimson Fruit\nRare",
     "zone": "Rotten Vale"
   },
   "Millionfold Cabbage": {
@@ -777,7 +777,7 @@
     "type": "Vegetable",
     "skill": "Acumen",
     "source": "Delivery",
-    "notes": "Million Zenny Veggie - 1 Girros Fang",
+    "notes": "Million Zenny Veggie\n1 Girros Fang",
     "zone": ""
   },
   "Kut-Ku Bean": {
@@ -807,7 +807,7 @@
     "type": "Vegetable",
     "skill": "Artillery",
     "source": "Gather",
-    "notes": "Tough-skinned Fruit - Uncommon",
+    "notes": "Tough-skinned Fruit\nUncommon",
     "zone": "Wildspire Waste"
   },
   "Divineapple": {
@@ -815,7 +815,7 @@
     "type": "Vegetable",
     "skill": "Artillery",
     "source": "Gather",
-    "notes": "Flourishing: Fruit - Tough-skinned Fruit",
+    "notes": "Flourishing: Fruit\nTough-skinned Fruit",
     "zone": "Wildspire Waste",
     "link": "https://monsterhunterworld.wiki.fextralife.com/Divineapple"
   },
@@ -824,7 +824,7 @@
     "type": "Vegetable",
     "skill": "Artillery",
     "source": "Gather",
-    "notes": "Tough-skinned Fruit - Rare",
+    "notes": "Tough-skinned Fruit\nRare",
     "zone": "Wildspire Waste"
   },
   "Emerald Durian": {
@@ -832,7 +832,7 @@
     "type": "Vegetable",
     "skill": "Artillery",
     "source": "Gather",
-    "notes": "Fossils - Legendary Fossil (Uncommon)",
+    "notes": "Fossils\nLegendary Fossil (Uncommon)",
     "zone": "Rotten Vale"
   },
   "Tater Mud": {
@@ -854,7 +854,7 @@
     "type": "Drink",
     "skill": "Perception",
     "source": "Quest",
-    "notes": "6* A Tingling Taste - Begins a quest chain for all other drinks",
+    "notes": "6* A Tingling Taste\nBegins a quest chain for all other drinks",
     "zone": "Rotten Vale",
     "stars": "6",
     "hr": "11",
@@ -865,7 +865,7 @@
     "type": "Drink",
     "skill": "Perception",
     "source": "Quest",
-    "notes": "6* Stuck in Their Ways - Requires Master Ale",
+    "notes": "6* Stuck in Their Ways\nRequires Master Ale",
     "zone": "Ancient Forest",
     "stars": "6",
     "hr": "11",
@@ -876,7 +876,7 @@
     "type": "Drink",
     "skill": "Perception",
     "source": "Quest",
-    "notes": "7* A Sore Site - Requires Ratha Whiskey",
+    "notes": "7* A Sore Site\nRequires Ratha Whiskey",
     "zone": "Coral Highlands",
     "stars": "7",
     "hr": "13",
@@ -888,7 +888,7 @@
     "skill": "Perception",
     "source": "Endemic Life Researcher",
     "notes":
-      "Phantom Bird (Downy Crake) - Must have completed all other Endemic Life bounties",
+      "Phantom Bird (Downy Crake)\nMust have completed all other Endemic Life bounties",
     "zone": "Ancient Forest"
   },
   "Hunter's Brew": {
@@ -910,7 +910,7 @@
     "type": "Drink",
     "skill": "Fortune",
     "source": "Delivery",
-    "notes": "A Master's Toast - 2 Thunder Sac - Requires Demontater Brew",
+    "notes": "A Master's Toast\n2 Thunder Sac\nRequires Demontater Brew",
     "zone": ""
   },
   "Ratha Whiskey": {
@@ -918,7 +918,7 @@
     "type": "Drink",
     "skill": "Fortune",
     "source": "Delivery",
-    "notes": "A Fire-Spewing Brew - 2 Dodogama Jaw - Requires Wyvern Amber Ale",
+    "notes": "A Fire-Spewing Brew\n2 Dodogama Jaw\nRequires Wyvern Amber Ale",
     "zone": "",
     "link": "https://monsterhunterworld.wiki.fextralife.com/A+Master's+Toast"
   },
@@ -927,7 +927,7 @@
     "type": "Drink",
     "skill": "Fortune",
     "source": "Quest",
-    "notes": "7* RRRRRumble in the Waste! - Requires Goldenfish Brew",
+    "notes": "7* RRRRRumble in the Waste!\nRequires Goldenfish Brew",
     "zone": "Wildspire Waste",
     "link":
       "https://monsterhunterworld.wiki.fextralife.com/RRRRRumble+in+the+Waste!"
@@ -938,7 +938,7 @@
     "skill": "Fortune",
     "source": "Piscine Researcher",
     "notes":
-      "Research Help: Capture the Ancient - Fish up a Pericanth \n Rotten Vale - sector 15; Elder's Recess - sector 8",
+      "Research Help: Capture the Ancient\nFish up a Pericanth \n Rotten Vale\nsector 15; Elder's Recess\nsector 8",
     "zone": "Rotten Vale",
     "link": "https://monsterhunterworld.wiki.fextralife.com/Petricanths"
   }

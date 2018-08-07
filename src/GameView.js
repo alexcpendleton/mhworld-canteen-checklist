@@ -12,7 +12,8 @@ class GameView extends Component {
     this.deriveButtonClass = this.deriveButtonClass.bind(this);
     this.renderTabItemFor = this.renderTabItemFor.bind(this);
     this.renderDetails = this.renderDetails.bind(this);
-    this.renderZoneSource = this.renderZoneSource.bind(this);
+    this.renderZone = this.renderZone.bind(this);
+    this.renderSource = this.renderSource.bind(this);
     this.handleFoundChange = this.handleFoundChange.bind(this);
     this.selectTab = this.selectTab.bind(this);
   }
@@ -117,20 +118,19 @@ class GameView extends Component {
     }
     return (
       <div className="details">
-        <div className="zone-source">{this.renderZoneSource(ingredient)}</div>
+        {this.renderZone(ingredient)}
+        {this.renderSource(ingredient)}
         <Notes ingredient={ingredient} />
       </div>
     );
   }
-  renderZoneSource(ingredient) {
-    const parts = [];
-    if (ingredient.zone) {
-      parts.push(ingredient.zone);
-    }
-    if (ingredient.source) {
-      parts.push(ingredient.source);
-    }
-    return parts.join(" - ");
+  renderZone(ingredient) {
+    if (!ingredient.zone) return "";
+    return <div className="zone">{ingredient.zone}</div>;
+  }
+  renderSource(ingredient) {
+    if (!ingredient.source) return "";
+    return <div className="source">{ingredient.source}</div>;
   }
   handleFoundChange(event, key) {
     const target = event.target;

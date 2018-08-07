@@ -70,7 +70,6 @@ class IngredientTable extends Component {
     return (
       <TabPanel isActive={isActive} key={name}>
         <div className="single-zone">
-          <h3>{name}</h3>
           <table>
             <tbody>
               {ingredients.map(i => this.renderOne(i.name, i, name))}

@@ -7,8 +7,12 @@
 h1 {
   text-align: center;
 }
+.App .tabs .button {
+  font-size: 0.8rem;
+}
 .App .tabs-content {
   border: 0;
+  font-size: 0.8rem;
 }
 .App .tabs-panel {
   padding: 0.5rem 0;
@@ -23,8 +27,7 @@ h1 {
 }
 .game-view-ingredient {
   text-align: center;
-  font-size: 0.9rem;
-  padding: 10px;
+  padding: 5px;
 }
 .game-view-ingredient label {
   cursor: pointer;
@@ -44,8 +47,11 @@ h1 {
 .game-view-ingredient .name {
   font-weight: bold;
 }
-.game-view-ingredient .zone-source {
+.game-view-ingredient .zone {
   text-decoration: underline;
+}
+.game-view-ingredient .source {
+  font-style: italic;
 }
 .single-zone .found {
   text-decoration: line-through;
