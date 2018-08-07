@@ -45,11 +45,7 @@ class IngredientTable extends Component {
           <Tabs>{orderedZones.map(this.renderTabItemFor)}</Tabs>
         </nav>
         <TabsContent>
-          {this.renderZone("Ancient Forest", byZone["Ancient Forest"])}
-          {this.renderZone("Wildspire Waste", byZone["Wildspire Waste"])}
-          {this.renderZone("Coral Highlands", byZone["Coral Highlands"])}
-          {this.renderZone("Rotten Vale", byZone["Rotten Vale"])}
-          {this.renderZone("Elder's Recess", byZone["Elder's Recess"])}
+          {orderedZones.map(name => this.renderZone(name, byZone[name]))}
         </TabsContent>
       </div>
     );
