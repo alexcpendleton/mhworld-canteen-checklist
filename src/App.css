@@ -72,6 +72,8 @@ h1 {
 .credits {
   text-align: center;
   padding: 0 10px;
+  max-width: 850px;
+  margin: 0 auto;
 }
 
 @media only screen and (max-width: 450px) {
