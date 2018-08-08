@@ -5,4 +5,4 @@ import App from "./App";
 import registerServiceWorker from "./registerServiceWorker";
 
 ReactDOM.render(<App shill={true} />, document.getElementById("root"));
-//registerServiceWorker();
+registerServiceWorker();
