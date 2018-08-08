@@ -118,20 +118,22 @@ class App extends Component {
         </TabsContent>
         <section className="credits">
           <p>
-            This lets you keep track of what Canteen Ingredients you have, and
-            which ones you still need in Monster Hunter World. While not exactly
-            a guide, it does have some help and links to more in-depth
-            information. I used it to find the right Investigations for
-            ingredients, and to maximize my results per-zone whenever possible.
+            Keep track of what Canteen Ingredients you have, and which ones you
+            still need in Monster Hunter World. While not exactly a guide, it
+            does have some help and links to more in-depth information. Use it
+            to find the right Investigations for ingredients, and to maximize
+            your results per-zone whenever possible.
           </p>
           <p>
             Most information was compiled from the{" "}
             <a href="https://monsterhunterworld.wiki.fextralife.com/Canteen">
               Fextralife Wiki
-            </a>,{" "}
+            </a>
+            ,{" "}
             <a href="https://docs.google.com/spreadsheets/d/1XYvKOMGIgpoWHEyJF9o6_IVx8dpTOPRFf17DxjAnCYc/edit#gid=914380646">
               liarea's spreadsheet
-            </a>, and through gameplay.
+            </a>
+            , and through gameplay.
           </p>
           <p>
             Ingredients often link to further details on the Wiki. You'll want
@@ -146,7 +148,8 @@ class App extends Component {
             or submit a{" "}
             <a href="https://github.com/alexcpendleton/mhworld-canteen-checklist">
               Github issue
-            </a>.
+            </a>
+            .
           </p>
           <Shill shill={this.props.shill} />
           {this.renderThemeButton()}
