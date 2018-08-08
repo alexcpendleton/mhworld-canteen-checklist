@@ -71,4 +71,20 @@ h1 {
 }
 .credits {
   text-align: center;
+  padding: 0 10px;
+}
+
+@media only screen and (max-width: 450px) {
+  .App .tabs .button {
+    font-size: 0.7rem;
+  }
+  .App .tabs-content {
+    font-size: 0.7rem;
+  }
+  .game-view-ingredient {
+    padding: 5px 2px;
+  }
+  .App .grid-x > .small-2 {
+    width: 16.4%;
+  }
 }

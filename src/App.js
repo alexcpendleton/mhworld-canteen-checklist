@@ -118,6 +118,13 @@ class App extends Component {
         </TabsContent>
         <section className="credits">
           <p>
+            This lets you keep track of what Canteen Ingredients you have, and
+            which ones you still need in Monster Hunter World. While not exactly
+            a guide, it does have some help and links to more in-depth
+            information. I used it to find the right Investigations for
+            ingredients, and to maximize my results per-zone whenever possible.
+          </p>
+          <p>
             Most information was compiled from the{" "}
             <a href="https://monsterhunterworld.wiki.fextralife.com/Canteen">
               Fextralife Wiki
@@ -183,11 +190,9 @@ class App extends Component {
     return this.storage.load();
   }
   handleFoundChange(key, found) {
-    // this seems wrong, but works
-    this.state.ingredients[key].found = found;
-    this.setState({
-      ingredients: this.state.ingredients
-    });
+    const ingredients = this.state.ingredients;
+    ingredients[key].found = found;
+    this.setState({ ingredients });
     this.storage.changeOne(key, found);
   }
   loadTheme() {

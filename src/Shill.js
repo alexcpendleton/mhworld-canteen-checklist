@@ -4,7 +4,7 @@ export class Shill extends Component {
   render() {
     if (!this.props.shill) return "";
     return (
-      <p class="shill">
+      <p className="shill">
         You may also{" "}
         <a
           href="https://www.buymeacoffee.com/M5QgpPWJ0"
