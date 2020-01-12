@@ -66,7 +66,7 @@ class App extends Component {
     return (
       <div className={appClass}>
         <h1>
-          <abbr title="Monster Hunter World">MHW</abbr> Canteen Checklist
+          <abbr title="Monster Hunter World">MHW</abbr>: Iceborn Canteen Checklist
         </h1>
         <nav className="menu align-center">
           <Tabs>
