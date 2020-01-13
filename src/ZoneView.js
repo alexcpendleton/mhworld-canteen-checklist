@@ -22,7 +22,8 @@ class IngredientTable extends Component {
       "Wildspire Waste",
       "Coral Highlands",
       "Rotten Vale",
-      "Elder's Recess"
+      "Elder's Recess",
+      "Hoarfrost Reach"
     ];
     const byZone = orderedZones.reduce((target, name) => {
       target[name] = [];
