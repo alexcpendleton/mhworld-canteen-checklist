@@ -945,7 +945,7 @@
   "Greathorn's Gulp": {
     "name": "Greathorn's Gulp",
     "type": "Drink",
-    "skill": "",
+    "skill": "Preparation",
     "source": "Quest",
     "notes":
       "1* MR Trapping the Tree Trasher",
@@ -955,7 +955,7 @@
   "Auspicious Ale": {
     "name": "Auspicious Ale",
     "type": "Drink",
-    "skill": "",
+    "skill": "Preparation",
     "source": "Quest",
     "notes":
       "1* MR Trapping the Tree Trasher",
@@ -965,7 +965,7 @@
   "Butterbrew": {
     "name": "Butterbrew",
     "type": "Drink",
-    "skill": "",
+    "skill": "Preparation",
     "source": "Gather",
     "notes": "Butterbur Patch\nExquisite Butterbur\nUncommon",
     "zone": "Hoarfrost Reach",
@@ -974,7 +974,7 @@
   "Fortified Honeywine": {
     "name": "Fortified Honeywine",
     "type": "Drink",
-    "skill": "",
+    "skill": "Preparation",
     "source": "Gather",
     "notes": "Upsurge: Butterbur\nButterbur Patch\nMillennium Butterbur",
     "zone": "Hoarfrost Reach",
@@ -983,7 +983,7 @@
   "Entrancing Alebic": {
     "name": "Entrancing Alebic",
     "type": "Drink",
-    "skill": "",
+    "skill": "Preparation",
     "source": "Gather",
     "notes": "Flourishing: Butterbur\nButterbur Patch\nSnow White\nGlider mantle, quadrant 13",
     "zone": "Hoarfrost Reach",
@@ -992,7 +992,7 @@
   "Tequila Del Locos": {
     "name": "Tequila Del Locos",
     "type": "Drink",
-    "skill": "",
+    "skill": "Preparation",
     "source": "Delivery",
     "notes": "Grammeowster Chef\n1 Twisted Stouthorn MR Diablos",
     "zone": "Wildspire Waste",
@@ -1001,7 +1001,7 @@
   "Glacial Vodka": {
     "name": "Glacial Vodka",
     "type": "Drink",
-    "skill": "",
+    "skill": "Trailblazer",
     "source": "Quest",
     "notes": "2* MR Nighty Night Nightshade",
     "zone": "Ancient Forest",
@@ -1010,7 +1010,7 @@
   "Toasting Tequila": {
     "name": "Toasting Tequila",
     "type": "Drink",
-    "skill": "",
+    "skill": "Trailblazer",
     "source": "Quest",
     "notes": "2* MR Nighty Night Nightshade",
     "zone": "Ancient Forest",
@@ -1019,7 +1019,7 @@
   "Snowmelt Snifter": {
     "name": "Snowmelt Snifter",
     "type": "Drink",
-    "skill": "",
+    "skill": "Trailblazer",
     "source": "Gather",
     "notes": "Frozen Foliage\nMoonlight Icebloom",
     "zone": "Hoarfrost Reach",
@@ -1028,7 +1028,7 @@
   "Frostpeak Fizz": {
     "name": "Frostpeak Fizz",
     "type": "Drink",
-    "skill": "",
+    "skill": "Trailblazer",
     "source": "Gather",
     "notes": "Frozen Foliage\nSnowpeak Icebloom",
     "zone": "Hoarfrost Reach",
@@ -1037,7 +1037,7 @@
   "Crystal Quaff": {
     "name": "Crystal Quaff",
     "type": "Drink",
-    "skill": "",
+    "skill": "Trailblazer",
     "source": "Gather",
     "notes": "Flourising: Frozen Foliage\nPetalcryst",
     "zone": "Hoarfrost Reach",
@@ -1046,7 +1046,7 @@
   "Searing Spirit": {
     "name": "Searing Spirit",
     "type": "Drink",
-    "skill": "",
+    "skill": "Trailblazer",
     "source": "Quest",
     "notes": "3* MR Simmer and Slice",
     "zone": "Wildspire Waste",
