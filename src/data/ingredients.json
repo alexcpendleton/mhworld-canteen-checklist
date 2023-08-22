@@ -498,8 +498,9 @@
     "type": "Fish",
     "skill": "Acumen",
     "source": "Gather",
-    "notes": "Pearls\nRare",
-    "zone": "Coral Highlands"
+    "notes": "Upsurge: Pearls\nRare\nInnocent Pearl",
+    "zone": "Coral Highlands",
+    "link": "https://monsterhunterworld.wiki.fextralife.com/Innocent+Pearl"
   },
   "Millenary Crab": {
     "name": "Millenary Crab",
