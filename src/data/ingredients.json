@@ -392,7 +392,8 @@
     "skill": "Resilience",
     "source": "Gather",
     "notes": "Ancient Fossil\nMystical Fossil",
-    "zone": "Rotten Vale"
+    "zone": "Rotten Vale",
+    "link":"https://monsterhunterworld.wiki.fextralife.com/Mythical+Fossil"
   },
   "Squad Sardine": {
     "name": "Squad Sardine",
